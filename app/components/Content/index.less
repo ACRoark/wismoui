@@ -1,0 +1,11 @@
+@import (reference) '../../styles/themes/index.less';
+
+@content-cls-prefix: ~'@{dte-prefix}-content';
+
+.@{content-cls-prefix} {
+  padding-bottom: @footer-height;
+
+  @media @mobile {
+    padding-bottom: @footer-mobile-height;
+  }
+}

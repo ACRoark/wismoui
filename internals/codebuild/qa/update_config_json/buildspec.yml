@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+    - git config --global hub.protocol https
+    - git config --global user.email $GITHUB_USER_EMAIL
+    - git config --global user.name $GITHUB_USERNAME
+    - cd ../
+    - CLOUDSHELL_REPO_FULL_CLONE=$(echo "${CLOUDSHELL_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+    - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${CLOUDSHELL_REPO}.git $CLOUDSHELL_REPO_FULL_CLONE
+    - cd $CLOUDSHELL_REPO_FULL_CLONE 
+    - git fetch --tags
+    - git checkout "refs/tags/${CLOUD_SHELL_VERSION}"
+    - cd ../
+    - CONFIG_JSON_REPO_FULL_CLONE=$(echo "${CONFIG_JSON_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+    - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${CONFIG_JSON_REPO}.git ${CONFIG_JSON_REPO_FULL_CLONE}
+    - cd $CONFIG_JSON_REPO_FULL_CLONE
+    - if [ "${CONFIG_JSON_REPO_COMMIT}" -ne "latest" ]; then git checkout ${CONFIG_JSON_REPO_COMMIT}; fi
+    - cd ../
+    - APP_REPO_FULL_CLONE=$(echo "${APP_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+    - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${APP_REPO}.git $APP_REPO_FULL_CLONE
+    - cd $APP_REPO_FULL_CLONE
+    - export CONFIG_JSON_FILE="../${CONFIG_JSON_REPO_FULL_CLONE}/deploy_properties/${ENVIRONMENT}-config.json"
+    - bash -x ./internals/codebuild/aws/scripts/update_config_json.sh "../${CLOUDSHELL_REPO_FULL_CLONE}"

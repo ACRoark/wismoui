@@ -1,0 +1,43 @@
+@import (reference) '../../styles/themes/index.less';
+
+@error-boundary-cls-prefix: ~'@{dte-prefix}-error-boundary';
+
+.@{error-boundary-cls-prefix} {
+  &-error-view {
+    .banner {
+      align-items: center;
+      background-color: @dte-red-light;
+      color: @dte-red;
+      display: flex;
+      margin-top: 60px;
+      padding: 29px 26px;
+      width: 100%;
+
+      @media @mobile {
+        align-items: flex-start;
+        margin-top: 30px;
+        padding: 20px 18px;
+      }
+
+      .error-icon {
+        color: @dte-red;
+        height: 30px;
+      }
+
+      .error-message {
+        line-height: 22px;
+        margin-left: 32px;
+      }
+    }
+
+    .button {
+      cursor: pointer;
+      display: block;
+      margin: 48px auto 0;
+
+      @media @mobile {
+        margin: 48px auto 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import (reference) '../../styles/themes/index.less';
+
+@base-field-cls-prefix: ~'@{dte-prefix}-base-field';
+
+.@{base-field-cls-prefix} {
+  &-children {
+    color: @dte-gray-600;
+  }
+
+  &-label {
+    color: @dte-gray-700;
+    font-size: @dte-wismo-font-size-1;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    padding-bottom: 6px;
+  }
+
+  &-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    @media screen and (max-width: 400px) {
+      clear: both;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 700px) {
+      float: none;
+    }
+  }
+}

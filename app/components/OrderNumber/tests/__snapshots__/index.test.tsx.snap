@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderNumber /> should render correctly when given a valid value 1`] = `
+<span>
+  MI 1234 5678
+</span>
+`;

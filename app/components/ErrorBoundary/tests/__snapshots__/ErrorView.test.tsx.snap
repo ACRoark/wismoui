@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorView /> should render correctly when given error info in en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-error-boundary-error-view"
+  >
+    <div
+      className="banner"
+    >
+      <div>
+        <svg
+          className="error-icon"
+          fill="none"
+          height="23"
+          viewBox="0 0 6 23"
+          width="6"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            error
+          </title>
+          <path
+            d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <div
+        className="error-message"
+      >
+        An error has occurred and we apologize for the inconvenience. Please go back and try again.
+        <div
+          className="error-details"
+        >
+          I am an error
+        </div>
+      </div>
+    </div>
+    <button
+      className="button dte-wismo-button dte-wismo-button-primary"
+      data-track="mimo"
+      data-track-action="click"
+      data-track-detail="order tracker"
+      data-track-sub-action="no orders go to core"
+      onClick={[Function]}
+    >
+      Go to Start or Stop Service
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ErrorView /> should render correctly when given error info in es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-error-boundary-error-view"
+  >
+    <div
+      className="banner"
+    >
+      <div>
+        <svg
+          className="error-icon"
+          fill="none"
+          height="23"
+          viewBox="0 0 6 23"
+          width="6"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            error
+          </title>
+          <path
+            d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <div
+        className="error-message"
+      >
+        Se produjo un error y le pedimos disculpas por las molestias. Por favor, regrese y vuelva a intentarlo.
+        <div
+          className="error-details"
+        >
+          I am an error
+        </div>
+      </div>
+    </div>
+    <button
+      className="button dte-wismo-button dte-wismo-button-primary"
+      data-track="mimo"
+      data-track-action="click"
+      data-track-detail="order tracker"
+      data-track-sub-action="no orders go to core"
+      onClick={[Function]}
+    >
+      Ir a Iniciar o Detener el Servicio
+    </button>
+  </div>
+</div>
+`;

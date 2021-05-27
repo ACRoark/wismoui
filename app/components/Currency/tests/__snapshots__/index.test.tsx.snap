@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Currency /> should render correctly when currency has value of number -1.23 and the currency type is CAD (en) 1`] = `"-CA$1.23"`;
+
+exports[`<Currency /> should render correctly when currency has value of number -1.23 and the currency type is CAD (es) 1`] = `"-1,23 CA$"`;
+
+exports[`<Currency /> should render correctly when currency has value of number -1.23 and the currency type is MXN (en) 1`] = `"-MX$1.23"`;
+
+exports[`<Currency /> should render correctly when currency has value of number -1.23 and the currency type is MXN (es) 1`] = `"-1,23 MXN"`;
+
+exports[`<Currency /> should render correctly when currency has value of number -1.23 and the currency type is USD (en) 1`] = `"-$1.23"`;
+
+exports[`<Currency /> should render correctly when currency has value of number -1.23 and the currency type is USD (es) 1`] = `"-1,23 US$"`;
+
+exports[`<Currency /> should render correctly when currency has value of number 1000 and the currency type is CAD (en) 1`] = `"CA$1,000.00"`;
+
+exports[`<Currency /> should render correctly when currency has value of number 1000 and the currency type is CAD (es) 1`] = `"1000,00 CA$"`;
+
+exports[`<Currency /> should render correctly when currency has value of number 1000 and the currency type is MXN (en) 1`] = `"MX$1,000.00"`;
+
+exports[`<Currency /> should render correctly when currency has value of number 1000 and the currency type is MXN (es) 1`] = `"1000,00 MXN"`;
+
+exports[`<Currency /> should render correctly when currency has value of number 1000 and the currency type is USD (en) 1`] = `"$1,000.00"`;
+
+exports[`<Currency /> should render correctly when currency has value of number 1000 and the currency type is USD (es) 1`] = `"1000,00 US$"`;
+
+exports[`<Currency /> should render correctly when currency has value of string ".59" and the currency type is CAD (en) 1`] = `"CA$0.59"`;
+
+exports[`<Currency /> should render correctly when currency has value of string ".59" and the currency type is CAD (es) 1`] = `"0,59 CA$"`;
+
+exports[`<Currency /> should render correctly when currency has value of string ".59" and the currency type is MXN (en) 1`] = `"MX$0.59"`;
+
+exports[`<Currency /> should render correctly when currency has value of string ".59" and the currency type is MXN (es) 1`] = `"0,59 MXN"`;
+
+exports[`<Currency /> should render correctly when currency has value of string ".59" and the currency type is USD (en) 1`] = `"$0.59"`;
+
+exports[`<Currency /> should render correctly when currency has value of string ".59" and the currency type is USD (es) 1`] = `"0,59 US$"`;
+
+exports[`<Currency /> should render correctly when currency has value of string "1" and the currency type is CAD (en) 1`] = `"CA$1.00"`;
+
+exports[`<Currency /> should render correctly when currency has value of string "1" and the currency type is CAD (es) 1`] = `"1,00 CA$"`;
+
+exports[`<Currency /> should render correctly when currency has value of string "1" and the currency type is MXN (en) 1`] = `"MX$1.00"`;
+
+exports[`<Currency /> should render correctly when currency has value of string "1" and the currency type is MXN (es) 1`] = `"1,00 MXN"`;
+
+exports[`<Currency /> should render correctly when currency has value of string "1" and the currency type is USD (en) 1`] = `"$1.00"`;
+
+exports[`<Currency /> should render correctly when currency has value of string "1" and the currency type is USD (es) 1`] = `"1,00 US$"`;

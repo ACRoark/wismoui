@@ -1,0 +1,79 @@
+@import (reference) '../../styles/themes/index.less';
+
+@mobile: ~'(max-width: 450px)';
+
+@modal-prefix-cls: ~'@{dte-prefix}-modal';
+
+.@{modal-prefix-cls} {
+  background: transparent !important;
+  box-shadow: none !important;
+  margin: 77px auto 0 !important;
+  max-width: none !important;
+  padding: 0px !important;
+  width: 67%;
+
+  @media @mobile {
+    width: 87%;
+  }
+
+  &-body {
+    background-color: @dte-white;
+    border: solid 1px @dte-gray-300;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    padding: 40px 30px;
+    text-align: center;
+
+    @media @mobile {
+      padding: 40px 24px;
+    }
+  }
+
+  &-close-button {
+    border-color: transparent;
+    color: @dte-blue-light;
+    height: 20px;
+    right: 0px !important;
+    top: 11px !important;
+    width: 20px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-content {
+    color: @dte-gray-600;
+    font-size: @dte-wismo-font-size-0;
+    text-align: left;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    @media @mobile {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &-overlay {
+    // Known issue with React Responsive Modal that requires the overlay background to use rgba value to not apply opacity to child elements.
+    background: rgba(245, 245, 245, 0.96) !important;
+    padding: 0px !important;
+  }
+
+  &-title {
+    color: @dte-gray-700;
+    font-size: @dte-wismo-font-size-5;
+    line-height: normal;
+    margin: 0 35px 24px 0;
+  }
+}

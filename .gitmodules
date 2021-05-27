@@ -1,0 +1,3 @@
+[submodule "internals/devops/cloud-shell"]
+	path = internals/devops/cloud-shell
+	url = https://github.com/dteenergy/cloud-shell.git

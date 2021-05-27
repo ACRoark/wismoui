@@ -1,0 +1,12 @@
+{
+  "flags": {
+    "bug2263": true,
+    "bug3665": true,
+    "bug3883": true,
+    "canChangeLanguage": true,
+    "developerMode": true,
+    "us1599": true,
+    "us1946": true,
+    "us3273": true
+  }
+}

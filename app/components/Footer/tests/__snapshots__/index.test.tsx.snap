@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render correctly 1`] = `
+<footer
+  className="dte-wismo-footer"
+>
+  <div
+    className="dte-wismo-footer-content"
+  >
+    <div
+      className="dte-wismo-footer-links"
+    >
+      <a
+        href="https://www.privacy.policy.com"
+      >
+        Privacy Policy
+      </a>
+      <p
+        className="dte-wismo-footer-divider"
+      >
+        |
+      </p>
+      <a
+        href="https://www.terms.and.conditions.com"
+      >
+        Terms & Conditions
+      </a>
+      <p
+        className="dte-wismo-footer-divider"
+      >
+        |
+      </p>
+      <a
+        href="https://www.contact.us.com"
+      >
+        Contact Us
+      </a>
+    </div>
+    <div
+      className="dte-wismo-footer-copyright"
+    >
+      <p>
+        © 2021 DTE Energy. All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`<Footer /> should render correctly 2`] = `
+<footer
+  className="dte-wismo-footer"
+>
+  <div
+    className="dte-wismo-footer-content"
+  >
+    <div
+      className="dte-wismo-footer-links"
+    >
+      <a
+        href="https://www.privacy.policy.com"
+      >
+        Política de privacidad
+      </a>
+      <p
+        className="dte-wismo-footer-divider"
+      >
+        |
+      </p>
+      <a
+        href="https://www.terms.and.conditions.com"
+      >
+        Términos y condiciones
+      </a>
+      <p
+        className="dte-wismo-footer-divider"
+      >
+        |
+      </p>
+      <a
+        href="https://www.contact.us.com"
+      >
+        Contacta con nosotras
+      </a>
+    </div>
+    <div
+      className="dte-wismo-footer-copyright"
+    >
+      <p>
+        © 2021 DTE Energía. Todos los derechos reservados
+      </p>
+    </div>
+  </div>
+</footer>
+`;

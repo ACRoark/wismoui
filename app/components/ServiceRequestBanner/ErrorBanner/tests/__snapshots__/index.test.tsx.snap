@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorBanner /> should render correctly when given a Start Service request with a 'CANCELED' status and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Order Canceled
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given a Start Service request with a 'CANCELED' status and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Orden Cancelada
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given a Start Service request with an unresolved verification step and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Verification Pending
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given a Start Service request with an unresolved verification step and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Verificación Pendiente
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given a Stop Service request with an unresolved verification step and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Verification Incomplete
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given a Stop Service request with an unresolved verification step and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Verificación Incompleta
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a call dte status and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Contact Us
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a call dte status and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Contacta con nosotras
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a delayed status and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Order Delayed
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a delayed status and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Orden demorada
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a partial completion status and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Service Appointment
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a partial completion status and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Cita de servicio
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a rescheduled status and the current language is en 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Rescheduled
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`<ErrorBanner /> should render correctly when given the Service request with a rescheduled status and the current language is es 1`] = `
+<div
+  className="dte-wismo-error-banner"
+>
+  <div>
+    <svg
+      className="error-icon"
+      fill="none"
+      height="23"
+      viewBox="0 0 6 23"
+      width="6"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>
+        error
+      </title>
+      <path
+        d="M4.43457 15.4961H1.88574L1.12402 0.583984H5.18164L4.43457 15.4961ZM0.948242 20.1689C0.948242 19.4463 1.13867 18.8994 1.51953 18.5283C1.90039 18.1475 2.44238 17.957 3.14551 17.957C3.83887 17.957 4.37109 18.1523 4.74219 18.543C5.11328 18.9336 5.29883 19.4756 5.29883 20.1689C5.29883 20.8623 5.1084 21.4141 4.72754 21.8242C4.35645 22.2246 3.8291 22.4248 3.14551 22.4248C2.45215 22.4248 1.91016 22.2295 1.51953 21.8389C1.13867 21.4482 0.948242 20.8916 0.948242 20.1689Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="content"
+  >
+    <h4>
+      Reprogramado
+    </h4>
+  </div>
+</div>
+`;

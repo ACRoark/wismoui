@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DteContactNumber /> should render correctly when value is 8004774747 1`] = `
+<a
+  className="dte-wismo-dte-contact-number"
+  href="tel:+8004774747"
+>
+  800.477.4747
+</a>
+`;

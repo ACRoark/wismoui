@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneNumber /> should render correctly when phone number has 7 characters 1`] = `
+<span>
+  112-2334
+</span>
+`;
+
+exports[`<PhoneNumber /> should render correctly when phone number has 10 characters 1`] = `
+<span>
+  (112) 233-4455
+</span>
+`;
+
+exports[`<PhoneNumber /> should render nothing when the value is null 1`] = `null`;

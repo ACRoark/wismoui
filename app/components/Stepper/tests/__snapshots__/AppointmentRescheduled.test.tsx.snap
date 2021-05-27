@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppointmentResheduled /> should render correctly when the required props are given 1`] = `
+<div
+  className="dte-wismo-appointment-rescheduled"
+>
+  <span
+    className="message"
+  >
+    Rescheduled to 
+    Monday
+    , 
+    June
+     
+    22
+  </span>
+  <div>
+    Electric appointment 
+    8 a.m. - 12 p.m.
+  </div>
+</div>
+`;
+
+exports[`<AppointmentResheduled /> should render correctly when the required props are given 2`] = `
+<div
+  className="dte-wismo-appointment-rescheduled"
+>
+  <span
+    className="message"
+  >
+    Reprogramado para 
+    Lunes
+    , 
+    Junio
+     
+    22
+  </span>
+  <div>
+    Cita electrica 
+    8 a.m. - 12 p.m.
+  </div>
+</div>
+`;

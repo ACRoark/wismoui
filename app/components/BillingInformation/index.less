@@ -1,0 +1,21 @@
+@import (reference) '../../styles/themes/index.less';
+
+@billing-information-cls-prefix: ~'@{dte-prefix}-billing-information';
+
+.@{billing-information-cls-prefix} {
+  background-color: @dte-gray-200;
+  margin-bottom: 28px;
+  padding: 20px;
+
+  > a {
+    &:link {
+      font-weight: @dte-wismo-font-weight-semi-bold;
+    }
+    &:visited {
+      color: @dte-blue-light;
+    }
+    &:hover {
+      color: @dte-interactive-hover;
+    }
+  }
+}

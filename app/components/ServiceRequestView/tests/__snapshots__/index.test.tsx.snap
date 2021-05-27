@@ -1,0 +1,4367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceRequestView should display the cancelled view when the order was cancelled and the user is authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-cancelled-step"
+      >
+        <div
+          className="dte-wismo-cancelled-step-icon-wrapper"
+        >
+          <svg
+            className="error icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-cancelled-step-message"
+          >
+            Your order to start service at 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             was canceled on 
+            07/01/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          View Status History
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the cancelled view when the order was cancelled and the user is authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-cancelled-step"
+      >
+        <div
+          className="dte-wismo-cancelled-step-icon-wrapper"
+        >
+          <svg
+            className="error icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-cancelled-step-message"
+          >
+            Su pedido para iniciar el servicio en 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             se canceló el 
+            01/07/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          Ver historial de estado
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the cancelled view when the order was cancelled and the user is not authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-cancelled-step"
+      >
+        <div
+          className="dte-wismo-cancelled-step-icon-wrapper"
+        >
+          <svg
+            className="error icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-cancelled-step-message"
+          >
+            Your order to start service at 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             was canceled on 
+            07/01/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          View Status History
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the cancelled view when the order was cancelled and the user is not authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-cancelled-step"
+      >
+        <div
+          className="dte-wismo-cancelled-step-icon-wrapper"
+        >
+          <svg
+            className="error icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-cancelled-step-message"
+          >
+            Su pedido para iniciar el servicio en 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             se canceló el 
+            01/07/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          Ver historial de estado
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is AWAITING_BILLING and the user is authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Your order to start service at 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             was completed on 
+            04/22/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          View Status History
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is AWAITING_BILLING and the user is authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Su pedido para iniciar el servicio en 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             se completó el 
+            22/04/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          Ver historial de estado
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is AWAITING_BILLING and the user is not authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Your order to start service at 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             was completed on 
+            04/22/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          View Status History
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is AWAITING_BILLING and the user is not authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Su pedido para iniciar el servicio en 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             se completó el 
+            22/04/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          Ver historial de estado
+        </button>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is COMPLETED and the user is authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Your order to start service at 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             was completed on 
+            04/22/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          View Status History
+        </button>
+      </div>
+      <div
+        className="dte-wismo-billing-information"
+      >
+        Your bill is ready to view online. Please 
+        <a
+          href="https://www.sign.in.com"
+        >
+          sign in
+        </a>
+         to make your payment or use our 
+        <a
+          href="https://www.guest.pay.com"
+        >
+          Guest Pay
+        </a>
+         option.
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is COMPLETED and the user is authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Su pedido para iniciar el servicio en 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             se completó el 
+            22/04/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          Ver historial de estado
+        </button>
+      </div>
+      <div
+        className="dte-wismo-billing-information"
+      >
+        Su factura está lista para ver en línea. 
+        <a
+          href="https://www.sign.in.com"
+        >
+          Inicie sesión
+        </a>
+         para realizar su pago o use nuestra opción 
+        <a
+          href="https://www.guest.pay.com"
+        >
+          Pago de Invitado
+        </a>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is COMPLETED and the user is not authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Your order to start service at 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             was completed on 
+            04/22/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          View Status History
+        </button>
+      </div>
+      <div
+        className="dte-wismo-billing-information"
+      >
+        Your bill is ready to view online. Please 
+        <a
+          href="https://www.sign.in.com"
+        >
+          sign in
+        </a>
+         to make your payment or use our 
+        <a
+          href="https://www.guest.pay.com"
+        >
+          Guest Pay
+        </a>
+         option.
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the confirmation view when the status is COMPLETED and the user is not authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="dte-wismo-order-confirmation-view"
+    >
+      <div
+        className="dte-wismo-completed-step"
+      >
+        <div
+          className="dte-wismo-completed-step-icon-wrapper"
+        >
+          <svg
+            className="completed icon"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1px"
+            />
+          </svg>
+        </div>
+        <h4>
+          <span
+            className="dte-wismo-completed-step-message"
+          >
+            Su pedido para iniciar el servicio en 
+            <address
+              className="dte-wismo-address"
+            >
+              123 Main
+            </address>
+             se completó el 
+            22/04/20
+            .
+          </span>
+        </h4>
+      </div>
+      <div
+        className="view-status-history-link"
+      >
+        <button
+          className="view-status-history-button dte-wismo-button dte-wismo-button-link"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          onClick={[Function]}
+        >
+          Ver historial de estado
+        </button>
+      </div>
+      <div
+        className="dte-wismo-billing-information"
+      >
+        Su factura está lista para ver en línea. 
+        <a
+          href="https://www.sign.in.com"
+        >
+          Inicie sesión
+        </a>
+         para realizar su pago o use nuestra opción 
+        <a
+          href="https://www.guest.pay.com"
+        >
+          Pago de Invitado
+        </a>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is empty and the user is authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Start Service 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Order Received
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  <div>
+                    03/01/20
+                  </div>
+                  Please allow up to 30 minutes for us to process your order. Thank you for your patience.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verification
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Scheduled
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Completed 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is empty and the user is authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Comience el serviciom 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Orden recibida
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  <div>
+                    01/03/20
+                  </div>
+                  Por favor, espere hasta 30 minutos para que procesemos su pedido. Gracias por su paciencia.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verificación
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Programado
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Terminado 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is empty and the user is unauthenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Start Service 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Order Received
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  <div>
+                    03/01/20
+                  </div>
+                  Please allow up to 30 minutes for us to process your order. Thank you for your patience.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verification
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Scheduled
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Completed 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is empty and the user is unauthenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Comience el serviciom 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Orden recibida
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  <div>
+                    01/03/20
+                  </div>
+                  Por favor, espere hasta 30 minutos para que procesemos su pedido. Gracias por su paciencia.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verificación
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Programado
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Terminado 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (555) 111-1213
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is not AWAITING_BILLING and the user is authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Start Service 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Order Received
+              </div>
+              <div
+                className="description"
+              >
+                03/01/20
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verification
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  Completed 
+                   
+                  03/19/20
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Scheduled
+              </div>
+              <div
+                className="description"
+              >
+                <div
+                  className="dte-wismo-appointment-date"
+                >
+                  04/17/20
+                </div>
+                <div>
+                  Electric appointment 
+                  8 a.m. - 12 p.m.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Completed 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (734) 555-1122
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is not AWAITING_BILLING and the user is authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Comience el serviciom 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Orden recibida
+              </div>
+              <div
+                className="description"
+              >
+                01/03/20
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verificación
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  Terminado 
+                   
+                  19/03/20
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Programado
+              </div>
+              <div
+                className="description"
+              >
+                <div
+                  className="dte-wismo-appointment-date"
+                >
+                  17/04/20
+                </div>
+                <div>
+                  Cita electrica 
+                  8 a.m. - 12 p.m.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Terminado 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (734) 555-1122
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is not AWAITING_BILLING and the user is not authenticated en 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Start Service 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Start Service
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Order Received
+              </div>
+              <div
+                className="description"
+              >
+                03/01/20
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verification
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  Completed 
+                   
+                  03/19/20
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Scheduled
+              </div>
+              <div
+                className="description"
+              >
+                <div
+                  className="dte-wismo-appointment-date"
+                >
+                  04/17/20
+                </div>
+                <div>
+                  Electric appointment 
+                  8 a.m. - 12 p.m.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Completed 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Phone Number
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (734) 555-1122
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Summary
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Address
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              List of Service(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Residential Electric Interruptible Air Conditioning
+              , 
+              Residential Electric Service
+              , 
+              Natural Gas Residential Heating
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ServiceRequestView should display the stepper when the status is not AWAITING_BILLING and the user is not authenticated es 1`] = `
+<div
+  className="dte-wismo-column-layout"
+>
+  <div
+    className="dte-wismo-service-request-view"
+  >
+    <div
+      className="dte-wismo-default-banner"
+    >
+      <h4>
+        Comience el serviciom 
+      </h4>
+    </div>
+    <div
+      className="dte-wismo-service-request-title"
+    >
+      Comienza el servicio
+    </div>
+    <div
+      className="stepper"
+    >
+      <div
+        className="dte-wismo-stepper"
+      >
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Orden recibida
+              </div>
+              <div
+                className="description"
+              >
+                01/03/20
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Verificación
+              </div>
+              <div
+                className="description"
+              >
+                <span>
+                  Terminado 
+                   
+                  19/03/20
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container completed"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <svg
+                className="completed icon"
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeWidth="1px"
+                />
+              </svg>
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Programado
+              </div>
+              <div
+                className="description"
+              >
+                <div
+                  className="dte-wismo-appointment-date"
+                >
+                  17/04/20
+                </div>
+                <div>
+                  Cita electrica 
+                  8 a.m. - 12 p.m.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-step"
+        >
+          <div
+            className="container pending"
+          >
+            <div
+              className="tail"
+            >
+              <div
+                className="half-1"
+              />
+              <div
+                className="half-2"
+              />
+            </div>
+            <div
+              className="icon-wrapper"
+            >
+              <i
+                className="icon pending"
+              />
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                className="title"
+              >
+                Terminado 
+              </div>
+              <div
+                className="description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="phone-number"
+    >
+      <div
+        className="dte-wismo-base-field-section"
+      >
+        <label
+          className="dte-wismo-base-field-label"
+        >
+          Número de teléfono
+        </label>
+        <span
+          className="dte-wismo-base-field-children"
+        >
+          <div
+            className="dte-wismo-phone-number-field"
+          >
+            <span
+              className="dte-wismo-phone-number-field-value"
+            >
+              (734) 555-1122
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="service-summary"
+    >
+      <h4
+        className="service-summary-label"
+      >
+        Resumen
+      </h4>
+      <div
+        className="dte-wismo-service-summary"
+      >
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Dirección
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              <address
+                className="dte-wismo-address"
+              >
+                123 Main
+Bloomfield, MI 48301
+              </address>
+            </span>
+          </div>
+        </div>
+        <div
+          className="dte-wismo-service-summary-field-container"
+        >
+          <div
+            className="dte-wismo-base-field-section"
+          >
+            <label
+              className="dte-wismo-base-field-label"
+            >
+              Lista de servicio(s)
+            </label>
+            <span
+              className="dte-wismo-base-field-children"
+            >
+              Aire acondicionado eléctrico interrumpible residencial
+              , 
+              Servicio Eléctrico Residencial
+              , 
+              Calefacción Residencial de Gas Natural
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

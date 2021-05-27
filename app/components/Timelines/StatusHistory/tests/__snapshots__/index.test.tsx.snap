@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusHistory should show status history when language is en and service request is Start (retroactive order) 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Order Received 
+      04/21/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Scheduled 
+      04/22/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Completed 
+      04/22/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is en and service request is Start 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Order Received 
+      07/13/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Verified 
+      03/20/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Scheduled 
+      03/21/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is en and service request is Stop 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Order Received 
+      07/13/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Verified 
+      03/20/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Scheduled 
+      03/21/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is en and service request is cancelled 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Order Received 
+      07/13/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Verified 
+      03/20/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Scheduled 
+      03/21/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Canceled 
+      03/22/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is es and service request is Start (retroactive order) 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Orden Recibida 
+      21/04/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Programado 
+      22/04/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Terminado 
+      22/04/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is es and service request is Start 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Orden Recibida 
+      13/07/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Verificado 
+      20/03/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Programado 
+      21/03/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is es and service request is Stop 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Orden Recibida 
+      13/07/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Verificado 
+      20/03/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Programado 
+      21/03/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`StatusHistory should show status history when language is es and service request is cancelled 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Orden Recibida 
+      13/07/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Verificado 
+      20/03/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Programado 
+      21/03/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Cancelado 
+      22/03/20
+    </div>
+  </li>
+</ul>
+`;

@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ServiceSummary /> should render correctly when given a valid order, and current language is en 1`] = `
+<div
+  className="dte-wismo-service-summary"
+>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        Address
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      >
+        <address
+          className="dte-wismo-address"
+        >
+          123 Main
+Bloomfield, MI 48301
+        </address>
+      </span>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        List of Service(s)
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      >
+        Residential Electric Interruptible Air Conditioning
+        , 
+        Residential Electric Service
+        , 
+        Natural Gas Residential Heating
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceSummary /> should render correctly when given a valid order, and current language is es 1`] = `
+<div
+  className="dte-wismo-service-summary"
+>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        Dirección
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      >
+        <address
+          className="dte-wismo-address"
+        >
+          123 Main
+Bloomfield, MI 48301
+        </address>
+      </span>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        Lista de servicio(s)
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      >
+        Aire acondicionado eléctrico interrumpible residencial
+        , 
+        Servicio Eléctrico Residencial
+        , 
+        Calefacción Residencial de Gas Natural
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceSummary /> should render correctly when given an order with no products, and current language is en 1`] = `
+<div
+  className="dte-wismo-service-summary"
+>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        Address
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      >
+        <address
+          className="dte-wismo-address"
+        >
+          123 Main
+Bloomfield, MI 48301
+        </address>
+      </span>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        List of Service(s)
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceSummary /> should render correctly when given an order with no products, and current language is es 1`] = `
+<div
+  className="dte-wismo-service-summary"
+>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        Dirección
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      >
+        <address
+          className="dte-wismo-address"
+        >
+          123 Main
+Bloomfield, MI 48301
+        </address>
+      </span>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-service-summary-field-container"
+  >
+    <div
+      className="dte-wismo-base-field-section"
+    >
+      <label
+        className="dte-wismo-base-field-label"
+      >
+        Lista de servicio(s)
+      </label>
+      <span
+        className="dte-wismo-base-field-children"
+      />
+    </div>
+  </div>
+</div>
+`;

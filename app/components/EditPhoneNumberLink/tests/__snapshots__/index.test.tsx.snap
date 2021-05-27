@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is in the future and the user is not authenticated (en) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is in the future and the user is not authenticated (es) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is in the past and the user is authenticated (en) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is in the past and the user is authenticated (es) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is in the past and the user is not authenticated (en) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is in the past and the user is not authenticated (es) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is today and the user is authenticated (en) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is today and the user is authenticated (es) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is today and the user is not authenticated (en) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should not render the link when the scheduled service date is today and the user is not authenticated (es) 1`] = `null`;
+
+exports[`<EditPhoneNumberLink /> should render the link when the scheduled service date is in the future and the user is authenticated (en) 1`] = `
+<div
+  className="dte-wismo-edit-phone-number-link"
+>
+  <button
+    className="dte-wismo-button dte-wismo-button-link"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    onClick={[Function]}
+  >
+    Edit
+  </button>
+</div>
+`;
+
+exports[`<EditPhoneNumberLink /> should render the link when the scheduled service date is in the future and the user is authenticated (es) 1`] = `
+<div
+  className="dte-wismo-edit-phone-number-link"
+>
+  <button
+    className="dte-wismo-button dte-wismo-button-link"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    onClick={[Function]}
+  >
+    Editar
+  </button>
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address Component should render correctly when format is "block" 1`] = `
+<address
+  className="dte-wismo-address"
+>
+  123 Main St, Apt. A
+Bloomfield, MI 48301
+</address>
+`;
+
+exports[`Address Component should render correctly when format is "block", and zip has more than 5 digits 1`] = `
+<address
+  className="dte-wismo-address"
+>
+  123 Main St, Apt. A
+Bloomfield, MI 48301
+</address>
+`;
+
+exports[`Address Component should render correctly when format is "street" 1`] = `
+<address
+  className="dte-wismo-address"
+>
+  123 Main St, Apt. A
+</address>
+`;
+
+exports[`Address Component should render correctly when format is "street", and zip has more than 5 digits 1`] = `
+<address
+  className="dte-wismo-address"
+>
+  123 Main St, Apt. A
+</address>
+`;

@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchFormError /> should render correctly when a google reCAPTCHA error occurs and language is en 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    We apologize for the inconvenience, but reCAPTCHA is currently unavailable. Please try again later.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when a google reCAPTCHA error occurs and language is es 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    Disculpe las molestias, pero reCAPTCHA no está disponible actualmente. Por favor, inténtelo de nuevo más tarde.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an inactive order error occurs and language is en 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    The information provided is not associated with an active order. Please try again.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an inactive order error occurs and language is es 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    La información proporcionada no está asociada con un pedido activo. Inténtalo de nuevo.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an invalid order error occurs and language is en 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    The order number entered is not valid. Please try again.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an invalid order error occurs and language is es 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    El número de pedido ingresado no es válido. Inténtalo de nuevo.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an order not found error occurs and language is en 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    You have no active orders to track within our Order Tracker.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an order not found error occurs and language is es 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    No tiene órdenes activas para rastrear dentro de nuestro Rastreador de órdenes.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an unavailable server error occurs and language is en 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    Our system is currently unavailable. We apologize for the inconvenience. Please try again later.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an unavailable server error occurs and language is es 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    Nuestro sistema no está disponible actualmente. Disculpe las molestias. Por favor, inténtelo de nuevo más tarde.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an unexpected error occurs and language is en 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    An unexpected error has occured. We apologize for the inconvenience. Please try again later.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<SearchFormError /> should render correctly when an unexpected error occurs and language is es 1`] = `
+<div
+  className="dte-wismo-search-form-error"
+>
+  <div
+    className="message"
+  >
+    <span
+      className="icon"
+    >
+      !
+    </span>
+    Ha ocurrido un error inesperado. Disculpe las molestias. Por favor, inténtelo de nuevo más tarde.
+  </div>
+  <button
+    className="close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="18"
+      viewBox="0 0 20 20"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </button>
+</div>
+`;

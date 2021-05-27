@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppointmentCallDte /> should render correctly when a product is given 1`] = `
+<div
+  className="dte-wismo-appointment-call-dte"
+>
+  <div>
+    Electric appointment 
+  </div>
+  <span
+    className="message"
+  >
+    Please call us at 
+    <a
+      className="dte-wismo-dte-contact-number"
+      href="tel:+8004774747"
+    >
+      800.477.4747
+    </a>
+  </span>
+</div>
+`;
+
+exports[`<AppointmentCallDte /> should render correctly when a product is given 2`] = `
+<div
+  className="dte-wismo-appointment-call-dte"
+>
+  <div>
+    Cita electrica 
+  </div>
+  <span
+    className="message"
+  >
+    Por favor llámenos al 
+    <a
+      className="dte-wismo-dte-contact-number"
+      href="tel:+8004774747"
+    >
+      800.477.4747
+    </a>
+  </span>
+</div>
+`;

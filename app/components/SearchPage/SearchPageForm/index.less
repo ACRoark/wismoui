@@ -1,0 +1,70 @@
+@import '../../../styles/themes/index.less';
+
+@search-page-form-cls-prefix: ~'@{dte-prefix}-search-page-form';
+
+.@{search-page-form-cls-prefix} {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: @dte-wismo-font-size-1;
+    line-height: 1.875rem;
+    text-align: center;
+  }
+
+  .recaptcha {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.08);
+  }
+
+  .button {
+    align-self: center;
+    background-color: @dte-blue-light;
+    border: none;
+    color: @dte-white;
+    cursor: pointer;
+    font-size: @dte-wismo-font-size-1;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    height: 40px;
+    margin-top: 30px;
+    width: 142px;
+
+    &:hover {
+      background-color: @dte-blue;
+    }
+  }
+
+  .button:disabled {
+    background-color: @dte-gray-500;
+    cursor: not-allowed;
+  }
+
+  input {
+    border: 1px solid @dte-gray-400;
+    height: 36px;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+
+    &[name='order-number'] {
+      margin-bottom: 30px;
+    }
+
+    &:focus {
+      border: 1px solid @dte-blue;
+    }
+  }
+
+  &-input-header {
+    margin-bottom: 4px;
+  }
+
+  label {
+    color: @dte-gray-600;
+    font-size: @dte-wismo-font-size-s;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    margin-top: 30px;
+  }
+}

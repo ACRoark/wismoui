@@ -1,0 +1,63 @@
+@import (reference) '../../styles/themes/index.less';
+
+@summary-page-cls-prefix: ~'@{dte-prefix}-summary-page';
+
+.@{summary-page-cls-prefix} {
+  &-empty-view {
+    .banner {
+      background-color: @dte-gray-200;
+      color: @dte-gray-700;
+      margin-top: 60px;
+      padding: 24px 10px 27px 38px;
+      width: 100%;
+
+      @media @mobile {
+        padding: 22px 20px;
+      }
+    }
+
+    .button {
+      cursor: pointer;
+      display: block;
+      margin: 30px auto;
+    }
+  }
+
+  &-error-view {
+    .banner {
+      align-items: center;
+      background-color: @dte-red-light;
+      color: @dte-red;
+      display: flex;
+      margin-top: 60px;
+      padding: 29px 26px;
+      width: 100%;
+
+      @media @mobile {
+        align-items: flex-start;
+        margin-top: 30px;
+        padding: 20px 18px;
+      }
+
+      .error-icon {
+        color: @dte-red;
+        height: 30px;
+      }
+
+      .error-message {
+        line-height: 22px;
+        margin-left: 32px;
+      }
+    }
+
+    .button {
+      cursor: pointer;
+      display: block;
+      margin: 48px auto 394px;
+
+      @media @mobile {
+        margin: 48px auto 141px;
+      }
+    }
+  }
+}

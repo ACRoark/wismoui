@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DefaultBanner /> should render correctly when given a Start Service request and the current language is en 1`] = `
+<div
+  className="dte-wismo-default-banner"
+>
+  <h4>
+    Start Service 
+    Sunday
+    , 
+    May
+     
+    22
+  </h4>
+</div>
+`;
+
+exports[`<DefaultBanner /> should render correctly when given a Start Service request and the current language is es 1`] = `
+<div
+  className="dte-wismo-default-banner"
+>
+  <h4>
+    Comience el serviciom 
+    Domingo
+    , 
+    Mayo
+     
+    22
+  </h4>
+</div>
+`;
+
+exports[`<DefaultBanner /> should render correctly when given a Start Service request with multiple appointment dates and the current language is en 1`] = `
+<div
+  className="dte-wismo-default-banner"
+>
+  <h4>
+    Start Service 
+    Sunday
+    , 
+    May
+     
+    22
+     & 
+    Monday
+    , 
+    May
+     
+    23
+  </h4>
+</div>
+`;
+
+exports[`<DefaultBanner /> should render correctly when given a Start Service request with multiple appointment dates and the current language is es 1`] = `
+<div
+  className="dte-wismo-default-banner"
+>
+  <h4>
+    Comience el serviciom 
+    Domingo
+    , 
+    Mayo
+     
+    22
+     & 
+    Lunes
+    , 
+    Mayo
+     
+    23
+  </h4>
+</div>
+`;
+
+exports[`<DefaultBanner /> should render correctly when given a Stop Service request and the current language is en 1`] = `
+<div
+  className="dte-wismo-default-banner"
+>
+  <h4>
+    Stop Service 
+    Sunday
+    , 
+    May
+     
+    22
+  </h4>
+</div>
+`;
+
+exports[`<DefaultBanner /> should render correctly when given a Stop Service request and the current language is es 1`] = `
+<div
+  className="dte-wismo-default-banner"
+>
+  <h4>
+    Parada de servicio 
+    Domingo
+    , 
+    Mayo
+     
+    22
+  </h4>
+</div>
+`;

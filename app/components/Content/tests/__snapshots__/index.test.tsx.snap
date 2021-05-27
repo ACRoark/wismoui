@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Content /> should render correctly when passed valid children 1`] = `
+<div
+  className="dte-wismo-content"
+>
+  <div>
+    Children
+  </div>
+</div>
+`;

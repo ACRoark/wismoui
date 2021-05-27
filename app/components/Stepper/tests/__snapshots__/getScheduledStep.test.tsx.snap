@@ -1,0 +1,1963 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getScheduledStep should return an empty description and a pending status when serviceOrderEvents is empty (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container pending"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <i
+        className="icon pending"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return an empty description and a pending status when serviceOrderEvents is empty (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container pending"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <i
+        className="icon pending"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the latest scheduled date and a completed status when the service order was delayed but rescheduled for a later date (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            08/16/20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the latest scheduled date and a completed status when the service order was delayed but rescheduled for a later date (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            16/08/20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the latest scheduled date when appointment date is rescheduled (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-rescheduled"
+          >
+            <span
+              className="message"
+            >
+              Rescheduled to 
+              Wednesday
+              , 
+              April
+               
+              22
+            </span>
+            <div>
+              Natural Gas appointment 
+              12 p.m. - 4:30 p.m.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the latest scheduled date when appointment date is rescheduled (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-rescheduled"
+          >
+            <span
+              className="message"
+            >
+              Reprogramado para 
+              Miércoles
+              , 
+              Abril
+               
+              22
+            </span>
+            <div>
+              Cita de gas natural 
+              12 p.m. - 4:30 p.m.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and an anytime appointment time when there is an anytime appointment window (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and an anytime appointment time when there is an anytime appointment window (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and an appointment time when given an appointment window (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+          <div>
+            Electric appointment 
+            8 a.m. - 12 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and an appointment time when given an appointment window (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+          <div>
+            Cita electrica 
+            8 a.m. - 12 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and multiple appointment times for each product appointment (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+          <div>
+            Electric appointment 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Natural Gas appointment 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and multiple appointment times for each product appointment (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+          <div>
+            Cita electrica 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Cita de gas natural 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and multiple appointment times for each product appointment in order by start time (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+          <div>
+            Electric appointment 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Natural Gas appointment 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled date, a completed status and multiple appointment times for each product appointment in order by start time (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+          <div>
+            Cita electrica 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Cita de gas natural 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with a completed status when latest verificationCode is 'AP', status is 'COMPLETED', and the latest orderRequestStatusUpdate is 'PROCESSED' (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+          <div>
+            Electric appointment 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Natural Gas appointment 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with a completed status when latest verificationCode is 'AP', status is 'COMPLETED', and the latest orderRequestStatusUpdate is 'PROCESSED' (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="dte-wismo-appointment-list"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+          <div>
+            Cita electrica 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Cita de gas natural 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with a completed status when there are no verificationEvents or serviceOrderEvents, but the orderRequestStatusUpdate is 'PROCESSED' and there are products in the products array (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="single-product"
+        >
+          05/22/20
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with a completed status when there are no verificationEvents or serviceOrderEvents, but the orderRequestStatusUpdate is 'PROCESSED' and there are products in the products array (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="single-product"
+        >
+          22/05/20
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when latest verificationCode is 'AP', status is 'ACTIVE', and the latest orderRequestStatusUpdate is 'PROCESSED' (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          Pending
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when latest verificationCode is 'AP', status is 'ACTIVE', and the latest orderRequestStatusUpdate is 'PROCESSED' (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          Pendiente
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when latest verificationCode is 'AP', status is 'COMPLETED', and the latest orderRequestStatusUpdate is 'NEEDS_VERIFICATION' (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          Pending
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when latest verificationCode is 'AP', status is 'COMPLETED', and the latest orderRequestStatusUpdate is 'NEEDS_VERIFICATION' (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          Pendiente
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the filtered verification events contains multiple ACTIVE bpems that match the verification codes ['AP', 'PM', 'WP'] and the us1946 flag is true (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="verification-content-error"
+        >
+          Pending
+           - 
+          Identity Verification
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </div>
+        <div
+          className="verification-content-error"
+        >
+          Pending
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the filtered verification events contains multiple ACTIVE bpems that match the verification codes ['AP', 'PM', 'WP'] and the us1946 flag is true (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="verification-content-error"
+        >
+          Pendiente
+           - 
+          Verificación de Identidad
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </div>
+        <div
+          className="verification-content-error"
+        >
+          Pendiente
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the filtered verification events has an ACTIVE bpem that is in ['AP', 'PM', 'WP'], the latest request Status is PROCESSED and the us1946 flag is true (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="verification-content-error"
+        >
+          Pending
+           - 
+          Identity Verification
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the filtered verification events has an ACTIVE bpem that is in ['AP', 'PM', 'WP'], the latest request Status is PROCESSED and the us1946 flag is true (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="verification-content-error"
+        >
+          Pendiente
+           - 
+          Verificación de Identidad
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the filtered verification events has an ACTIVE bpem that is in ['AP', 'PM', 'WP'], the latest request status is NEEDS_VERIFICATION and the us1946 flag is true (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="verification-content-error"
+        >
+          Pending
+           - 
+          Identity Verification
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the filtered verification events has an ACTIVE bpem that is in ['AP', 'PM', 'WP'], the latest request status is NEEDS_VERIFICATION and the us1946 flag is true (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <div
+          className="verification-content-error"
+        >
+          Pendiente
+           - 
+          Verificación de Identidad
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the latest verificationCode is 'AP' and the latest orderRequestStatusUpdate is 'NEEDS_VERIFICATION' (en) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Scheduled
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          Pending
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            View Details
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getScheduledStep should return the scheduled step with an error status when the latest verificationCode is 'AP' and the latest orderRequestStatusUpdate is 'NEEDS_VERIFICATION' (es) 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container error"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="error icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Programado
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          Pendiente
+          <button
+            className="view-details-link dte-wismo-button dte-wismo-button-link"
+            data-track="mimo"
+            data-track-action="click"
+            data-track-detail="order tracker"
+            onClick={[Function]}
+          >
+            Ver Detalles
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

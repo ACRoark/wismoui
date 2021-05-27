@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressField /> should render correctly when a valid address is passed in and the current language is en 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Address
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    <address
+      className="dte-wismo-address"
+    >
+      1234 That Street
+Anytown, MI 12345
+    </address>
+  </span>
+</div>
+`;
+
+exports[`<AddressField /> should render correctly when a valid address is passed in and the current language is es 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Dirección
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    <address
+      className="dte-wismo-address"
+    >
+      1234 That Street
+Anytown, MI 12345
+    </address>
+  </span>
+</div>
+`;

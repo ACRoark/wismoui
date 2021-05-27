@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewDetailsLink /> should render the link when a valid serviceOrderEvents and serviceOrderEventStatus are provided (en) 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-link"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  onClick={[Function]}
+>
+  View Details
+</button>
+`;
+
+exports[`<ViewDetailsLink /> should render the link when a valid serviceOrderEvents and serviceOrderEventStatus are provided (es) 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-link"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  onClick={[Function]}
+>
+  Ver Detalles
+</button>
+`;
+
+exports[`<ViewDetailsLink /> should render the link when a valid verificationCategory, verificationCode, and wantDate are provided (en) 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-link"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  onClick={[Function]}
+>
+  View Details
+</button>
+`;
+
+exports[`<ViewDetailsLink /> should render the link when a valid verificationCategory, verificationCode, and wantDate are provided (es) 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-link"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  onClick={[Function]}
+>
+  Ver Detalles
+</button>
+`;

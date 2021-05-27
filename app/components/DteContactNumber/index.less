@@ -1,0 +1,13 @@
+@import (reference) '../../styles/themes/index.less';
+
+@dte-contact-number-cls-prefix: ~'@{dte-prefix}-dte-contact-number';
+
+.@{dte-contact-number-cls-prefix} {
+  color: @dte-blue-light;
+  font-weight: @dte-wismo-font-weight-semi-bold;
+  padding-left: 2px !important;
+
+  @media @mobile {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,1159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is en, search has many results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Back to All Orders
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is en, search has many results, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Search Another Order
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is en, search has one result, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Search Another Order
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is en, search has one results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div />
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is es, search has many results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Volver a todos los pedidos
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is es, search has many results, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Buscar otra orden
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is es, search has one result, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Buscar otra orden
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MI12345678 when the current language is es, search has one results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div />
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MI 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is en, search has many results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Back to All Orders
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is en, search has many results, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Search Another Order
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is en, search has one result, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Search Another Order
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is en, search has one results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div />
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is es, search has many results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Volver a todos los pedidos
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is es, search has many results, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Buscar otra orden
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is es, search has one result, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Buscar otra orden
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MO12345678 when the current language is es, search has one results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div />
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MO 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is en, search has many results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Back to All Orders
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is en, search has many results, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Search Another Order
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is en, search has one result, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Search Another Order
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is en, search has one results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div />
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          Order No.
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is es, search has many results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Volver a todos los pedidos
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is es, search has many results, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Buscar otra orden
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is es, search has one result, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div
+        className="back-link"
+        data-testid="back-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          target="_self"
+        >
+          <svg
+            className="back-arrow"
+            fill="currentColor"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+              fillRule="evenodd"
+              stroke="currentColor"
+              strokeWidth="1"
+            />
+          </svg>
+          Buscar otra orden
+        </a>
+      </div>
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ServiceRequestViewHeader /> should render correctly for order number MT12345678 when the current language is es, search has one results, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-service-request-view-header"
+>
+  <div
+    className="dte-wismo-column-layout"
+  >
+    <div
+      className="dte-wismo-service-request-view-header-content"
+    >
+      <div />
+      <div
+        className="service-request-number"
+      >
+        <span
+          className="label"
+        >
+          No. de pedido
+        </span>
+        <span>
+          MT 1234 5678
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

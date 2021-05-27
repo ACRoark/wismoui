@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BaseField /> should render correctly when the current language is en 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Test Label
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    <div>
+      1234567890
+    </div>
+  </span>
+</div>
+`;
+
+exports[`<BaseField /> should render correctly when the current language is es 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Etiqueta de prueba
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    <div>
+      1234567890
+    </div>
+  </span>
+</div>
+`;

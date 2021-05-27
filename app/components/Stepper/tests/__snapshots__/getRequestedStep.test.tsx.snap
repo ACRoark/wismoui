@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getRequestedStep should return the date the order was created and a 'new order' message when language is en 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Order Received
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          <div>
+            09/22/20
+          </div>
+          Please allow up to 30 minutes for us to process your order. Thank you for your patience.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getRequestedStep should return the date the order was created and a 'new order' message when language is es 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Orden recibida
+      </div>
+      <div
+        className="description"
+      >
+        <span>
+          <div>
+            22/09/20
+          </div>
+          Por favor, espere hasta 30 minutos para que procesemos su pedido. Gracias por su paciencia.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getRequestedStep should return the date the order was created when language is en 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Order Received
+      </div>
+      <div
+        className="description"
+      >
+        09/22/20
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getRequestedStep should return the date the order was created when language is en, and orderRequestStatusUpdates array is not empty 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Order Received
+      </div>
+      <div
+        className="description"
+      >
+        09/22/20
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getRequestedStep should return the date the order was created when language is es 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Orden recibida
+      </div>
+      <div
+        className="description"
+      >
+        22/09/20
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`getRequestedStep should return the date the order was created when language is es, and orderRequestStatusUpdates array is not empty 1`] = `
+<div
+  className="dte-wismo-step"
+>
+  <div
+    className="container completed"
+  >
+    <div
+      className="tail"
+    >
+      <div
+        className="half-1"
+      />
+      <div
+        className="half-2"
+      />
+    </div>
+    <div
+      className="icon-wrapper"
+    >
+      <svg
+        className="completed icon"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="1px"
+        />
+      </svg>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="title"
+      >
+        Orden recibida
+      </div>
+      <div
+        className="description"
+      >
+        22/09/20
+      </div>
+    </div>
+  </div>
+</div>
+`;

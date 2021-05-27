@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toolbar /> should not render the language selector when changing languages is disabled in the config file (en) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`<Toolbar /> should not render the language selector when changing languages is disabled in the config file (es) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`<Toolbar /> should render Login button when the current user is not authenticated (en) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`<Toolbar /> should render Login button when the current user is not authenticated (es) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`<Toolbar /> should render Logout button when the current user is authenticated (en) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Logout
+  </button>
+</div>
+`;
+
+exports[`<Toolbar /> should render Logout button when the current user is authenticated (es) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Logout
+  </button>
+</div>
+`;
+
+exports[`<Toolbar /> should render the language selector when changing languages is enabled in the config file (en) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+  <span
+    style={
+      Object {
+        "margin": "0px 25px",
+      }
+    }
+  >
+    <select
+      onChange={[Function]}
+      value="en"
+    >
+      <option
+        value="en"
+      >
+        English
+      </option>
+      <option
+        value="es"
+      >
+        Spanish
+      </option>
+    </select>
+  </span>
+</div>
+`;
+
+exports[`<Toolbar /> should render the language selector when changing languages is enabled in the config file (es) 1`] = `
+<div
+  className="dte-wismo-toolbar"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Login
+  </button>
+  <span
+    style={
+      Object {
+        "margin": "0px 25px",
+      }
+    }
+  >
+    <select
+      onChange={[Function]}
+      value="es"
+    >
+      <option
+        value="en"
+      >
+        English
+      </option>
+      <option
+        value="es"
+      >
+        Spanish
+      </option>
+    </select>
+  </span>
+</div>
+`;

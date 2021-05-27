@@ -1,0 +1,17 @@
+@import (reference) '../../styles/themes/index.less';
+
+@appointment-delayed-cls-prefix: ~'@{dte-prefix}-appointment-delayed';
+
+.@{appointment-delayed-cls-prefix} {
+  .message {
+    color: @dte-red;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+  }
+
+  .view-details-link {
+    font-size: @dte-wismo-font-size-0;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    padding: unset;
+    padding-left: 13px;
+  }
+}

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalContent should render the modal content for AD 1`] = `
+<span
+  className="dte-wismo-view-details-modal-content"
+>
+  <p>
+    More information is needed to start service. Please visit our 
+    <a
+      className="website"
+      href="https://web-test.dteenergy.com/wps/wcm/connect/dte-web/quicklinks/web-form?detokenizeValue="
+      target="_blank"
+    >
+      Document Submission Portal
+    </a>
+     and select Residential Start Service. Next, fill out your information and then submit one of the following documents:
+  </p>
+  <ul>
+    <li>
+      Government-issued picture ID
+    </li>
+    <li>
+      Social Security card
+    </li>
+    <li>
+      Driver’s license
+    </li>
+    <li>
+      Passport
+    </li>
+    <li>
+      Native American tribal ID
+    </li>
+    <li>
+      Military ID
+    </li>
+    <li>
+      Detroit Municipal ID
+    </li>
+  </ul>
+  <p>
+    After your information is submitted, a Customer Service team member will contact you via the phone number provided within 2 business days.
+  </p>
+  <p>
+    If you do not submit your information, DTE will close your order 30 days after 
+    04/19/20
+    .
+  </p>
+  <span
+    className="dte-wismo-view-details-status-history-title"
+  >
+    Status History
+  </span>
+  <ul
+    className="ant-timeline dte-wismo-timeline"
+  >
+    <li
+      className="ant-timeline-item ant-timeline-item-last"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-gray"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Documents Received 
+        10/05/20
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`ModalContent should render the modal content for AD 2`] = `
+<span
+  className="dte-wismo-view-details-modal-content"
+>
+  <p>
+    Se necesita más información para iniciar el servicio. Visite nuestro 
+    <a
+      className="website"
+      href="https://web-test.dteenergy.com/wps/wcm/connect/dte-web/quicklinks/web-form?detokenizeValue="
+      target="_blank"
+    >
+      Portal de envío de documentos
+    </a>
+     y seleccione Servicio de inicio residencial. Luego, complete su información y luego envíe uno de los siguientes documentos:
+  </p>
+  <ul>
+    <li>
+      Identificación con foto emitida por el gobierno
+    </li>
+    <li>
+      Tarjeta de seguro Social
+    </li>
+    <li>
+      Licencia de conducir
+    </li>
+    <li>
+      Pasaporte
+    </li>
+    <li>
+      Identificación tribal indígena americana
+    </li>
+    <li>
+      ID militar
+    </li>
+    <li>
+      ID municipal de Detroit
+    </li>
+  </ul>
+  <p>
+    Después de enviar su información, un miembro del equipo de Servicio al Cliente se comunicará con usted a través del número de teléfono proporcionado dentro de los 2 días hábiles.
+  </p>
+  <p>
+    Si no envía su información, DTE cerrará su pedido 30 días después 
+    19/04/20
+    .
+  </p>
+  <span
+    className="dte-wismo-view-details-status-history-title"
+  >
+    Historial de estado
+  </span>
+  <ul
+    className="ant-timeline dte-wismo-timeline"
+  >
+    <li
+      className="ant-timeline-item ant-timeline-item-last"
+    >
+      <div
+        className="ant-timeline-item-tail"
+      />
+      <div
+        className="ant-timeline-item-head ant-timeline-item-head-gray"
+        style={
+          Object {
+            "borderColor": undefined,
+          }
+        }
+      />
+      <div
+        className="ant-timeline-item-content"
+      >
+        Documentos Recibidos 
+        05/10/20
+      </div>
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`ModalContent should render the modal content for AP 1`] = `
+<span
+  className="dte-wismo-view-details-modal-content"
+>
+  In order to complete your start service order, please schedule the date/time 
+  <a
+    className="website"
+    href="https://www.dteenergy.com"
+    target="_blank"
+  >
+    online
+  </a>
+  .
+</span>
+`;
+
+exports[`ModalContent should render the modal content for AP 2`] = `
+<span
+  className="dte-wismo-view-details-modal-content"
+>
+  Para completar su orden de inicio de servicio, programe la fecha / hora 
+  <a
+    className="website"
+    href="https://www.dteenergy.com"
+    target="_blank"
+  >
+    en línea
+  </a>
+  .
+</span>
+`;

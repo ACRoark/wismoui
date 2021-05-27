@@ -1,0 +1,37 @@
+version: 0.2
+
+env:
+  variables:
+    ArtifactType: "rc"
+
+phases:
+  build:
+    commands:
+      - export ArtifactName=$APP_NAME
+      - VERSION="$(date +%Y-%m-%d-%s)"
+      - apt update
+      - apt-get install -y python python-pip
+      - apt-get install -y groff
+      - apt-get install -y gawk
+      - apt-get install -y jq
+      - pip install awscli
+      - cd ../
+      - CLOUDSHELL_REPO_FULL_CLONE=$(echo "${CLOUDSHELL_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+      - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${CLOUDSHELL_REPO}.git $CLOUDSHELL_REPO_FULL_CLONE
+      - cd $CLOUDSHELL_REPO_FULL_CLONE  
+      - git fetch --tags
+      - git checkout "refs/tags/${CLOUD_SHELL_VERSION}"
+      - cd ../
+      - APP_REPO_FULL_CLONE=$(echo "${APP_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+      - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${APP_REPO}.git $APP_REPO_FULL_CLONE
+      - cd $APP_REPO_FULL_CLONE
+      - git config --global hub.protocol https
+      - git config --global user.email $GITHUB_USER_EMAIL
+      - git config --global user.name $GITHUB_USERNAME
+      - npm install
+      - HUSKY_SKIP_INSTALL=1 npm run build || exit 1
+      - git tag "${VERSION}"
+      - git push origin "${VERSION}"
+      - aws s3api put-object --bucket ${ARTIFACT_S3_BUCKET} --key ${ArtifactName}-${ArtifactType}-${VERSION}/
+      - aws s3 cp ${ARTIFACT_FILE} s3://${ARTIFACT_S3_BUCKET}/${ArtifactName}-${ArtifactType}-${VERSION}/
+      - bash -x ./internals/codebuild/aws/scripts/trigger_environment_deploy.sh "../${CLOUDSHELL_REPO_FULL_CLONE}"

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppointmentDelayed /> should render correctly when the required props are given 1`] = `
+<div
+  className="dte-wismo-appointment-delayed"
+>
+  <span
+    className="message"
+  >
+    Monday
+    , 
+    June
+     
+    22
+     - Order Delayed
+    <button
+      className="view-details-link dte-wismo-button dte-wismo-button-link"
+      data-track="mimo"
+      data-track-action="click"
+      data-track-detail="order tracker"
+      onClick={[Function]}
+    >
+      View Details
+    </button>
+  </span>
+  <div>
+    Electric appointment 
+  </div>
+</div>
+`;
+
+exports[`<AppointmentDelayed /> should render correctly when the required props are given 2`] = `
+<div
+  className="dte-wismo-appointment-delayed"
+>
+  <span
+    className="message"
+  >
+    Lunes
+    , 
+    Junio
+     
+    22
+     - Pedido retrasado
+    <button
+      className="view-details-link dte-wismo-button dte-wismo-button-link"
+      data-track="mimo"
+      data-track-action="click"
+      data-track-detail="order tracker"
+      onClick={[Function]}
+    >
+      Ver Detalles
+    </button>
+  </span>
+  <div>
+    Cita electrica 
+  </div>
+</div>
+`;

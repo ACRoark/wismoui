@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo ${CODEBUILD_WEBHOOK_HEAD_REF}
+      - echo ${CODEBUILD_WEBHOOK_HEAD_REF} | sed -r 's@^(refs/heads/)(.+)@\2@'
+      - PR_BRANCH=$(echo ${CODEBUILD_WEBHOOK_HEAD_REF} | sed -r 's@^(refs/heads/)(.+)@\2@')
+      - echo "Pull Request branch is - ${PR_BRANCH}"
+      - cd ../
+      - APP_REPO_FULL_CLONE=$(echo "${APP_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+      - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${APP_REPO}.git $APP_REPO_FULL_CLONE
+      - cd $APP_REPO_FULL_CLONE
+      - git config --global hub.protocol https
+      - git config --global user.email $GITHUB_USER_EMAIL
+      - git config --global user.name $GITHUB_USERNAME
+      - git branch
+      - echo "git merge --no-commit --no-ff "origin/${PR_BRANCH}""
+      - git merge --no-commit --no-ff "origin/${PR_BRANCH}"
+      - echo $?
+      - npm install
+  build:
+    commands:
+      - HUSKY_SKIP_INSTALL=1 npm run build && npm run test

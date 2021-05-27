@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerificationHistory should show verification events history when language is en and verification events has items in 'COMPLETED' status 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documentation Required 
+      03/21/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documents Received 
+      03/21/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`VerificationHistory should show verification events history when language is en and verification events has last item in 'ACTIVE' status 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documentation Required 
+      03/21/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documents Received 
+      03/21/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`VerificationHistory should show verification events history when language is es and verification events has items in 'COMPLETED' status 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documentación Requerida 
+      21/03/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documentos Recibidos 
+      21/03/20
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`VerificationHistory should show verification events history when language is es and verification events has last item in 'ACTIVE' status 1`] = `
+<ul
+  className="ant-timeline dte-wismo-timeline"
+>
+  <li
+    className="ant-timeline-item"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documentación Requerida 
+      21/03/20
+    </div>
+  </li>
+  <li
+    className="ant-timeline-item ant-timeline-item-last"
+  >
+    <div
+      className="ant-timeline-item-tail"
+    />
+    <div
+      className="ant-timeline-item-head ant-timeline-item-head-gray"
+      style={
+        Object {
+          "borderColor": undefined,
+        }
+      }
+    />
+    <div
+      className="ant-timeline-item-content"
+    >
+      Documentos Recibidos 
+      21/03/20
+    </div>
+  </li>
+</ul>
+`;

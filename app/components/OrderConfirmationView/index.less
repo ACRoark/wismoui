@@ -1,0 +1,24 @@
+@import (reference) '../../styles/themes/index.less';
+
+@order-confirmation-view-cls-prefix: ~'@{dte-prefix}-order-confirmation-view';
+
+.@{order-confirmation-view-cls-prefix} {
+  .view-status-history-button {
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    padding: 0;
+  }
+
+  .view-status-history-link {
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    min-height: 50px;
+    padding: 28px 0px;
+  }
+}
+
+.dte-wismo-status-history-modal {
+  width: 33%;
+
+  @media @mobile {
+    width: 87%;
+  }
+}

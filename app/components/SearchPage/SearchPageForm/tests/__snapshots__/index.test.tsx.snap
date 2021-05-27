@@ -1,0 +1,1277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchPageForm /> should render correctly when error is ORDER_INACTIVE and language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      The information provided is not associated with an active order. Please try again.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is ORDER_INACTIVE and language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      La información proporcionada no está asociada con un pedido activo. Inténtalo de nuevo.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is ORDER_INVALID and language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      The order number entered is not valid. Please try again.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is ORDER_INVALID and language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      El número de pedido ingresado no es válido. Inténtalo de nuevo.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is ORDER_NOT_FOUND and language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      You have no active orders to track within our Order Tracker.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is ORDER_NOT_FOUND and language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      No tiene órdenes activas para rastrear dentro de nuestro Rastreador de órdenes.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is RECAPTCHA_FAILED and language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      We apologize for the inconvenience, but reCAPTCHA is currently unavailable. Please try again later.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is RECAPTCHA_FAILED and language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      Disculpe las molestias, pero reCAPTCHA no está disponible actualmente. Por favor, inténtelo de nuevo más tarde.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is SERVER_UNAVAILABLE and language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      Our system is currently unavailable. We apologize for the inconvenience. Please try again later.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is SERVER_UNAVAILABLE and language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      Nuestro sistema no está disponible actualmente. Disculpe las molestias. Por favor, inténtelo de nuevo más tarde.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is well this was unexpected and language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      An unexpected error has occured. We apologize for the inconvenience. Please try again later.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when error is well this was unexpected and language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <div
+    className="dte-wismo-search-form-error"
+  >
+    <div
+      className="message"
+    >
+      <span
+        className="icon"
+      >
+        !
+      </span>
+      Ha ocurrido un error inesperado. Disculpe las molestias. Por favor, inténtelo de nuevo más tarde.
+    </div>
+    <button
+      className="close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="18"
+        viewBox="0 0 20 20"
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when language is en 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    To check the status of your order, please enter your information below.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Last Name or Business Name
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Order Number
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`<SearchPageForm /> should render correctly when language is es 1`] = `
+<form
+  className="dte-wismo-search-page-form"
+  id="mimotrackerguestsearch"
+  name="mimotrackerguestsearch"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Para verificar el estado de su pedido, ingrese su información a continuación.
+  </h1>
+  <label
+    htmlFor="name"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Apellido o nombre comercial
+    </div>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="order-number"
+  >
+    <div
+      className="dte-wismo-search-page-form-input-header"
+    >
+      Número de orden
+    </div>
+    <input
+      name="order-number"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      value=""
+    />
+  </label>
+  <div
+    className="recaptcha"
+  />
+  <button
+    className="button"
+    data-track="mimo"
+    data-track-action="click"
+    data-track-detail="order tracker"
+    data-track-sub-action="guest search"
+    disabled={true}
+    type="submit"
+  >
+    Enviar
+  </button>
+</form>
+`;

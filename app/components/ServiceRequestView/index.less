@@ -1,0 +1,38 @@
+@import (reference) '../../styles/themes/index.less';
+
+@service-request-view-cls-prefix: ~'@{dte-prefix}-service-request-view';
+
+.@{service-request-view-cls-prefix} {
+  color: @dte-gray-700;
+  margin-bottom: 116px;
+  margin-top: 50px;
+
+  .customer-name {
+    font-size: @dte-wismo-font-size-1;
+    font-style: italic;
+    margin-bottom: 6px;
+    margin-top: 45px;
+  }
+
+  .phone-number {
+    color: @dte-gray-600;
+    margin: 25px 24px 48px 0;
+  }
+
+  .service-summary {
+    &-label {
+      color: @dte-gray-700;
+      font-size: @dte-wismo-font-size-2;
+      margin: 0 8px 12px 0;
+    }
+  }
+
+  .stepper {
+    margin: 15px 0px;
+  }
+
+  .dte-wismo-service-request-title {
+    font-size: @dte-wismo-font-size-4;
+    margin-bottom: 30px;
+  }
+}

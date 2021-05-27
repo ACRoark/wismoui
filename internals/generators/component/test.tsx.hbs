@@ -1,0 +1,58 @@
+/**
+ *
+ * Tests for {{ properCase name }}
+ *
+ */
+
+import React from 'react';
+{{#if wantMessages}}
+import { IntlProvider } from 'react-intl';
+{{/if}}
+import renderer from 'react-test-renderer';
+
+import TestRendererJsonType from 'types/TestRendererJsonType';
+
+{{#if wantMessages}}
+import { DEFAULT_LOCALE } from '../../../locales';
+{{/if}}
+
+import {{ properCase name }} from '..';
+
+describe('<{{ properCase name }} />', (): void => {
+  it('Should have additional unit tests specified', (): void => {
+    expect(true).toEqual(false);
+  });
+
+  it('Should not log errors in console', (): void => {
+    const spy = jest.spyOn(global.console, 'error');
+
+    {{#if wantMessages}}
+    renderer.create(
+      <IntlProvider locale={DEFAULT_LOCALE}>
+        <{{ properCase name }} />
+      </IntlProvider>,
+    );
+    {{else}}
+    renderer.create(
+      <{{ properCase name }} />);
+    {{/if}}
+
+    expect(spy).not.toHaveBeenCalled();
+  });
+
+  it('Should render and match the snapshot', (): void => {
+    {{#if wantMessages}}
+    const tree: TestRendererJsonType = renderer.create(
+      <IntlProvider locale={DEFAULT_LOCALE}>
+        <{{ properCase name }} />
+      </IntlProvider>,
+    ).toJSON();
+    {{else}}
+    const tree: TestRendererJsonType = renderer.create(
+      <{{ properCase name }} />,
+    ).toJSON();
+    {{/if}}
+
+    expect(tree).toMatchSnapshot();
+  });
+});

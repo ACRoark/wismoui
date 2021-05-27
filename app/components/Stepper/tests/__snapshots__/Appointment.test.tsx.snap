@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is AH and the current language is en 1`] = `
+<div>
+  Electric appointment 
+  4:30 p.m. - 8 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is AH and the current language is es 1`] = `
+<div>
+  Cita electrica 
+  4:30 p.m. - 8 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is AM and the current language is en 1`] = `
+<div>
+  Electric appointment 
+  8 a.m. - 12 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is AM and the current language is es 1`] = `
+<div>
+  Cita electrica 
+  8 a.m. - 12 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is AN and the current language is en 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is AN and the current language is es 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is PM and the current language is en 1`] = `
+<div>
+  Electric appointment 
+  12 p.m. - 4:30 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is PM and the current language is es 1`] = `
+<div>
+  Cita electrica 
+  12 p.m. - 4:30 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is null and the current language is en 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential electric product,
+      the appointment time is null and the current language is es 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is AH and the current language is en 1`] = `
+<div>
+  Natural Gas appointment 
+  4:30 p.m. - 8 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is AH and the current language is es 1`] = `
+<div>
+  Cita de gas natural 
+  4:30 p.m. - 8 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is AM and the current language is en 1`] = `
+<div>
+  Natural Gas appointment 
+  8 a.m. - 12 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is AM and the current language is es 1`] = `
+<div>
+  Cita de gas natural 
+  8 a.m. - 12 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is AN and the current language is en 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is AN and the current language is es 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is PM and the current language is en 1`] = `
+<div>
+  Natural Gas appointment 
+  12 p.m. - 4:30 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is PM and the current language is es 1`] = `
+<div>
+  Cita de gas natural 
+  12 p.m. - 4:30 p.m.
+</div>
+`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is null and the current language is en 1`] = `null`;
+
+exports[`Appointment component should render properly when given a residential gas product,
+      the appointment time is null and the current language is es 1`] = `null`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is AH and the current language is en 1`] = `
+<div>
+  Service appointment 
+  4:30 p.m. - 8 p.m.
+</div>
+`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is AH and the current language is es 1`] = `
+<div>
+  Cita de servicio 
+  4:30 p.m. - 8 p.m.
+</div>
+`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is AM and the current language is en 1`] = `
+<div>
+  Service appointment 
+  8 a.m. - 12 p.m.
+</div>
+`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is AM and the current language is es 1`] = `
+<div>
+  Cita de servicio 
+  8 a.m. - 12 p.m.
+</div>
+`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is AN and the current language is en 1`] = `null`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is AN and the current language is es 1`] = `null`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is PM and the current language is en 1`] = `
+<div>
+  Service appointment 
+  12 p.m. - 4:30 p.m.
+</div>
+`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is PM and the current language is es 1`] = `
+<div>
+  Cita de servicio 
+  12 p.m. - 4:30 p.m.
+</div>
+`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is null and the current language is en 1`] = `null`;
+
+exports[`Appointment component should render the default Service appointment when given a product that is neither gas or electric,
+      the appointment time is null and the current language is es 1`] = `null`;

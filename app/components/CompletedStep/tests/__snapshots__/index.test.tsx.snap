@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompletedStep should display a green checkbox and message text including a 1-line address when service request status is AWAITING_BILLING and language is en 1`] = `
+<div
+  className="dte-wismo-completed-step"
+>
+  <div
+    className="dte-wismo-completed-step-icon-wrapper"
+  >
+    <svg
+      className="completed icon"
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeWidth="1px"
+      />
+    </svg>
+  </div>
+  <h4>
+    <span
+      className="dte-wismo-completed-step-message"
+    >
+      Your order to start service at 
+      <address
+        className="dte-wismo-address"
+      >
+        123 Main
+      </address>
+       was completed on 
+      04/18/20
+      .
+    </span>
+  </h4>
+</div>
+`;
+
+exports[`CompletedStep should display a green checkbox and message text including a 1-line address when service request status is AWAITING_BILLING and language is es 1`] = `
+<div
+  className="dte-wismo-completed-step"
+>
+  <div
+    className="dte-wismo-completed-step-icon-wrapper"
+  >
+    <svg
+      className="completed icon"
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeWidth="1px"
+      />
+    </svg>
+  </div>
+  <h4>
+    <span
+      className="dte-wismo-completed-step-message"
+    >
+      Su pedido para iniciar el servicio en 
+      <address
+        className="dte-wismo-address"
+      >
+        123 Main
+      </address>
+       se completó el 
+      18/04/20
+      .
+    </span>
+  </h4>
+</div>
+`;
+
+exports[`CompletedStep should display a green checkbox and message text including a 2-line address when service request status is AWAITING_BILLING, address.line2 is NOT NULL and language is en 1`] = `
+<div
+  className="dte-wismo-completed-step"
+>
+  <div
+    className="dte-wismo-completed-step-icon-wrapper"
+  >
+    <svg
+      className="completed icon"
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeWidth="1px"
+      />
+    </svg>
+  </div>
+  <h4>
+    <span
+      className="dte-wismo-completed-step-message"
+    >
+      Your order to start service at 
+      <address
+        className="dte-wismo-address"
+      >
+        222 Second Rd, Unit #6
+      </address>
+       was completed on 
+      04/18/20
+      .
+    </span>
+  </h4>
+</div>
+`;
+
+exports[`CompletedStep should display a green checkbox and message text including a 2-line address when service request status is AWAITING_BILLING, address.line2 is NOT NULL and language is es 1`] = `
+<div
+  className="dte-wismo-completed-step"
+>
+  <div
+    className="dte-wismo-completed-step-icon-wrapper"
+  >
+    <svg
+      className="completed icon"
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeWidth="1px"
+      />
+    </svg>
+  </div>
+  <h4>
+    <span
+      className="dte-wismo-completed-step-message"
+    >
+      Su pedido para iniciar el servicio en 
+      <address
+        className="dte-wismo-address"
+      >
+        222 Second Rd, Unit #6
+      </address>
+       se completó el 
+      18/04/20
+      .
+    </span>
+  </h4>
+</div>
+`;
+
+exports[`CompletedStep should display the service date from the products array when it renders and language is en 1`] = `
+<div
+  className="dte-wismo-completed-step"
+>
+  <div
+    className="dte-wismo-completed-step-icon-wrapper"
+  >
+    <svg
+      className="completed icon"
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeWidth="1px"
+      />
+    </svg>
+  </div>
+  <h4>
+    <span
+      className="dte-wismo-completed-step-message"
+    >
+      Your order to start service at 
+      <address
+        className="dte-wismo-address"
+      >
+        123 Main
+      </address>
+       was completed on 
+      12/29/20
+      .
+    </span>
+  </h4>
+</div>
+`;
+
+exports[`CompletedStep should display the service date from the products array when it renders and language is es 1`] = `
+<div
+  className="dte-wismo-completed-step"
+>
+  <div
+    className="dte-wismo-completed-step-icon-wrapper"
+  >
+    <svg
+      className="completed icon"
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+        fillRule="evenodd"
+        stroke="currentColor"
+        strokeWidth="1px"
+      />
+    </svg>
+  </div>
+  <h4>
+    <span
+      className="dte-wismo-completed-step-message"
+    >
+      Su pedido para iniciar el servicio en 
+      <address
+        className="dte-wismo-address"
+      >
+        123 Main
+      </address>
+       se completó el 
+      29/12/20
+      .
+    </span>
+  </h4>
+</div>
+`;

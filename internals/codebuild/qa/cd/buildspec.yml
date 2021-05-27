@@ -1,0 +1,35 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - add-apt-repository ppa:openjdk-r/ppa
+      - apt update
+      - apt-get install -y wget
+      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      - yes | dpkg -i google-chrome-stable_current_amd64.deb
+      - apt-get install -y firefox
+      - apt-get install -y gawk
+      - apt-get install -y jq
+      - apt-get install -y openjdk-11-jdk
+      - echo "Deploying Artifact - ${VERSION} built from Git Tag - ${VERSION}"
+      - cd ../
+      - CLOUDSHELL_REPO_FULL_CLONE=$(echo "${CLOUDSHELL_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+      - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${CLOUDSHELL_REPO}.git $CLOUDSHELL_REPO_FULL_CLONE
+      - cd $CLOUDSHELL_REPO_FULL_CLONE  
+      - git fetch --tags
+      - git checkout "refs/tags/${CLOUD_SHELL_VERSION}"
+      - cd ../
+      - CONFIG_JSON_REPO_FULL_CLONE=$(echo "${CONFIG_JSON_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+      - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${CONFIG_JSON_REPO}.git ${CONFIG_JSON_REPO_FULL_CLONE}
+      - cd $CONFIG_JSON_REPO_FULL_CLONE
+      - if [ "${CONFIG_JSON_REPO_COMMIT}" -ne "latest" ]; then git checkout ${CONFIG_JSON_REPO_COMMIT}; fi
+      - cd ../
+      - APP_REPO_FULL_CLONE=$(echo "${APP_REPO}" | sed -r 's@(.+/)(.+)@\2-full-clone@')
+      - git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${APP_REPO}.git $APP_REPO_FULL_CLONE
+      - cd $APP_REPO_FULL_CLONE
+      - git config --global hub.protocol https
+      - git config --global user.email $GITHUB_USER_EMAIL
+      - git config --global user.name $GITHUB_USERNAME
+      - export CONFIG_JSON_FILE=../${CONFIG_JSON_REPO_FULL_CLONE}/deploy_properties/${ENVIRONMENT}-config.json
+      - bash -x ./internals/codebuild/aws/scripts/deploy_environment.sh "../${CLOUDSHELL_REPO_FULL_CLONE}" "${CODEBUILD_SRC_DIR}"

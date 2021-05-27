@@ -1,0 +1,24 @@
+@import (reference) '../../styles/themes/index.less';
+
+@timeline-cls-prefix: ~'@{dte-prefix}-timeline';
+
+// Ant Design Overrides
+.@{timeline-cls-prefix} {
+  .ant-timeline-item {
+    &-content {
+      top: -0.3rem;
+    }
+
+    &-head-gray {
+      background-color: @dte-gray-500;
+    }
+
+    &-last {
+      padding-bottom: 0;
+
+      > .ant-timeline-item-content {
+        min-height: initial;
+      }
+    }
+  }
+}

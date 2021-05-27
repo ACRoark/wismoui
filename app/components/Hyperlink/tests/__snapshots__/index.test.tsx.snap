@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hyperlink /> should render external link when href is for a different host 1`] = `
+<a
+  href="https://www.google.com"
+  target="_blank"
+>
+  <svg
+    className="dte-wismo-hyperlink-icon"
+    fill="currentColor"
+    height="16"
+    role="img"
+    viewBox="0 0 16 16"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      id="external-link"
+    >
+      <path
+        d="M5.75 3C11.1197 3 14 3 14 3M14 3V11.25M14 3L3 14"
+        id="Vector"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+      />
+    </g>
+  </svg>
+  External Link Text
+</a>
+`;
+
+exports[`<Hyperlink /> should render internal link when href is for the current host 1`] = `
+<a
+  href="/"
+  onClick={[Function]}
+  target="_self"
+>
+  Local Link Text
+</a>
+`;
+
+exports[`<Hyperlink /> target should be set to _blank when a target is not provided and href is for a different host 1`] = `
+<a
+  href="https://www.google.com"
+  target="_blank"
+>
+  <svg
+    className="dte-wismo-hyperlink-icon"
+    fill="currentColor"
+    height="16"
+    role="img"
+    viewBox="0 0 16 16"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      id="external-link"
+    >
+      <path
+        d="M5.75 3C11.1197 3 14 3 14 3M14 3V11.25M14 3L3 14"
+        id="Vector"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+      />
+    </g>
+  </svg>
+  External Link Text
+</a>
+`;
+
+exports[`<Hyperlink /> target should be set to _self when a target is not provided and href is for the current host 1`] = `
+<a
+  href="/"
+  onClick={[Function]}
+  target="_self"
+>
+  Local Link Text
+</a>
+`;
+
+exports[`<Hyperlink /> target should be set to the given target when a target is provided and href is for a different host 1`] = `
+<a
+  href="https://www.google.com"
+  target="_top"
+>
+  <svg
+    className="dte-wismo-hyperlink-icon"
+    fill="currentColor"
+    height="16"
+    role="img"
+    viewBox="0 0 16 16"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      id="external-link"
+    >
+      <path
+        d="M5.75 3C11.1197 3 14 3 14 3M14 3V11.25M14 3L3 14"
+        id="Vector"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+      />
+    </g>
+  </svg>
+  External Link Text
+</a>
+`;
+
+exports[`<Hyperlink /> target should be set to the given target when a target is provided and href is for the current host 1`] = `
+<a
+  href="/"
+  onClick={[Function]}
+  target="_top"
+>
+  Local Link Text
+</a>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render correctly when the current language is en 1`] = `
+<div
+  className="dte-wismo-tabs"
+>
+  <div
+    className="dte-wismo-tabs-left dte-wismo-tabs-selected "
+    onClick={[Function]}
+  >
+    Start Service
+  </div>
+  <div
+    className="dte-wismo-tabs-unselected"
+    onClick={[Function]}
+  >
+    Stop Service
+  </div>
+</div>
+`;
+
+exports[`<Tabs /> should render correctly when the current language is es 1`] = `
+<div
+  className="dte-wismo-tabs"
+>
+  <div
+    className="dte-wismo-tabs-left dte-wismo-tabs-selected "
+    onClick={[Function]}
+  >
+    Comience el servicio
+  </div>
+  <div
+    className="dte-wismo-tabs-unselected"
+    onClick={[Function]}
+  >
+    Parada de servivio
+  </div>
+</div>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request with a BPEM is passed (en) 1`] = `
+<div
+  className="title error"
+>
+  ! Start Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request with a BPEM is passed (en) 2`] = `
+<div
+  className="title error"
+>
+  ! Start Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request with a BPEM is passed (es) 1`] = `
+<div
+  className="title error"
+>
+  ! Empieza el servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request with a BPEM is passed (es) 2`] = `
+<div
+  className="title error"
+>
+  ! Empieza el servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request without a BPEM is passed (en) 1`] = `
+<div
+  className="title"
+>
+  Start Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request without a BPEM is passed (en) 2`] = `
+<div
+  className="title"
+>
+  Start Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request without a BPEM is passed (es) 1`] = `
+<div
+  className="title"
+>
+  Empieza el servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_START request without a BPEM is passed (es) 2`] = `
+<div
+  className="title"
+>
+  Empieza el servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request with a BPEM is passed (en) 1`] = `
+<div
+  className="title error"
+>
+  ! Stop Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request with a BPEM is passed (en) 2`] = `
+<div
+  className="title error"
+>
+  ! Stop Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request with a BPEM is passed (es) 1`] = `
+<div
+  className="title error"
+>
+  ! Parada de servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request with a BPEM is passed (es) 2`] = `
+<div
+  className="title error"
+>
+  ! Parada de servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request without a BPEM is passed (en) 1`] = `
+<div
+  className="title"
+>
+  Stop Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request without a BPEM is passed (en) 2`] = `
+<div
+  className="title"
+>
+  Stop Service 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request without a BPEM is passed (es) 1`] = `
+<div
+  className="title"
+>
+  Parada de servicio 
+</div>
+`;
+
+exports[`<OrderListItemTitle /> should render correctly when a MIMO_STOP request without a BPEM is passed (es) 2`] = `
+<div
+  className="title"
+>
+  Parada de servicio 
+</div>
+`;

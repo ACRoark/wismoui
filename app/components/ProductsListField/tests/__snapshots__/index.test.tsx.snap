@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductsListField /> should render correctly when a valid product list is passed and the current language is en 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    List of Service(s)
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    Natural Gas Residential Heating
+    , 
+    Commercial Electric Interruptible Air Conditioning
+  </span>
+</div>
+`;
+
+exports[`<ProductsListField /> should render correctly when a valid product list is passed and the current language is es 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Lista de servicio(s)
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    Calefacción Residencial de Gas Natural
+    , 
+    Aire acondicionado eléctrico interrumpible comercial
+  </span>
+</div>
+`;

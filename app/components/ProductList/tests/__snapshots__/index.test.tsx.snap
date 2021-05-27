@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductList /> should render correctly when a single item is passed and the current language is en 1`] = `"Residential Electric Interruptible Air Conditioning"`;
+
+exports[`<ProductList /> should render correctly when a single item is passed and the current language is es 1`] = `"Aire acondicionado eléctrico interrumpible residencial"`;
+
+exports[`<ProductList /> should render correctly when an empty list is passed and the current language is en 1`] = `null`;
+
+exports[`<ProductList /> should render correctly when an empty list is passed and the current language is es 1`] = `null`;
+
+exports[`<ProductList /> should render correctly when multiple items are passed and the current language is en 1`] = `
+Array [
+  "Residential Electric Service",
+  ", ",
+  "Natural Gas Residential Heating",
+  ", ",
+  "Residential Electric Interruptible Air Conditioning",
+]
+`;
+
+exports[`<ProductList /> should render correctly when multiple items are passed and the current language is es 1`] = `
+Array [
+  "Servicio Eléctrico Residencial",
+  ", ",
+  "Calefacción Residencial de Gas Natural",
+  ", ",
+  "Aire acondicionado eléctrico interrumpible residencial",
+]
+`;
+
+exports[`<ProductList /> should render correctly when null is passed and the current language is en 1`] = `null`;
+
+exports[`<ProductList /> should render correctly when null is passed and the current language is es 1`] = `null`;

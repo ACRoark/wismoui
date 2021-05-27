@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrdersList /> should render correctly when a single item is passed and the current language is en 1`] = `
+<div
+  className="dte-wismo-order-list"
+>
+  <div>
+    Dummy Item
+  </div>
+</div>
+`;
+
+exports[`<OrdersList /> should render correctly when a single item is passed and the current language is es 1`] = `
+<div
+  className="dte-wismo-order-list"
+>
+  <div>
+    Dummy Item
+  </div>
+</div>
+`;
+
+exports[`<OrdersList /> should render correctly when an empty list is passed and the current language is en 1`] = `null`;
+
+exports[`<OrdersList /> should render correctly when an empty list is passed and the current language is es 1`] = `null`;
+
+exports[`<OrdersList /> should render correctly when multiple items are passed and the current language is en 1`] = `
+<div
+  className="dte-wismo-order-list"
+>
+  <div>
+    Dummy Item
+  </div>
+  <div>
+    Dummy Item
+  </div>
+</div>
+`;
+
+exports[`<OrdersList /> should render correctly when multiple items are passed and the current language is es 1`] = `
+<div
+  className="dte-wismo-order-list"
+>
+  <div>
+    Dummy Item
+  </div>
+  <div>
+    Dummy Item
+  </div>
+</div>
+`;

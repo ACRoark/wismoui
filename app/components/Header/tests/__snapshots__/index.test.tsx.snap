@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly when the current language is en 1`] = `
+<header
+  className="dte-wismo-header-background"
+>
+  <div
+    className="dte-wismo-header-mobile"
+  >
+    <button
+      className="dte-wismo-header-mobile-hamburger"
+      data-testid="open-mobile-menu"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 32 20"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          menu
+        </title>
+        <path
+          clipRule="evenodd"
+          d="M0 1C0 0.447715 0.447715 0 1 0H31C31.5523 0 32 0.447715 32 1C32 1.55228 31.5523 2 31 2H1C0.447715 2 0 1.55228 0 1ZM0 10C0 9.44771 0.447715 9 1 9H31C31.5523 9 32 9.44771 32 10C32 10.5523 31.5523 11 31 11H1C0.447715 11 0 10.5523 0 10ZM0 19C0 18.4477 0.447715 18 1 18H31C31.5523 18 32 18.4477 32 19C32 19.5523 31.5523 20 31 20H1C0.447715 20 0 19.5523 0 19Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+    <div
+      className="dte-wismo-header-mobile-center"
+    >
+      <div
+        className="dte-wismo-header-mobile-logo"
+      >
+        <a
+          href="https://www.header.logo.com"
+          title="DTE Energy"
+        >
+          <svg
+            className="dte-wismo-header-logo"
+            fill="none"
+            height="32"
+            viewBox="0 0 93 32"
+            width="93"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              DTE Energy
+            </title>
+            <path
+              d="M62.0682 7.78728H53.1416V32H41.5539V7.78728H32.6094V0.0179513H62.0682V7.78728ZM92.7523 7.66162V0H66.4833V24.3133C66.4833 28.5103 69.8696 31.9102 74.0418 31.9102H78.9605H92.888V24.2127H79.4035C78.4283 24.2127 77.6353 23.4157 77.6353 22.4355V19.2761H92.145V12.1853H77.6353V7.66162H92.7523ZM19.6178 31.9749H0V0.0502637H19.5535C24.7223 0.0502637 28.9087 4.26164 28.9087 9.45316V22.6366C28.9087 27.7922 24.7509 31.9749 19.6178 31.9749ZM18.1961 21.8826V10.0061C18.1961 8.65253 17.1031 7.5575 15.76 7.5575H11.4699V24.3312H15.76C17.1031 24.3312 18.1961 23.2362 18.1961 21.8826Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        className="dte-wismo-header-page-title"
+      >
+        Order Tracker
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-header"
+  >
+    <div
+      className="dte-wismo-header-page-title"
+    >
+      Order Tracker
+    </div>
+    <div>
+      <a
+        href="https://www.header.logo.com"
+        title="DTE Energy"
+      >
+        <svg
+          className="dte-wismo-header-logo"
+          fill="none"
+          height="32"
+          viewBox="0 0 93 32"
+          width="93"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            DTE Energy
+          </title>
+          <path
+            d="M62.0682 7.78728H53.1416V32H41.5539V7.78728H32.6094V0.0179513H62.0682V7.78728ZM92.7523 7.66162V0H66.4833V24.3133C66.4833 28.5103 69.8696 31.9102 74.0418 31.9102H78.9605H92.888V24.2127H79.4035C78.4283 24.2127 77.6353 23.4157 77.6353 22.4355V19.2761H92.145V12.1853H77.6353V7.66162H92.7523ZM19.6178 31.9749H0V0.0502637H19.5535C24.7223 0.0502637 28.9087 4.26164 28.9087 9.45316V22.6366C28.9087 27.7922 24.7509 31.9749 19.6178 31.9749ZM18.1961 21.8826V10.0061C18.1961 8.65253 17.1031 7.5575 15.76 7.5575H11.4699V24.3312H15.76C17.1031 24.3312 18.1961 23.2362 18.1961 21.8826Z"
+            fill="currentColor"
+          />
+        </svg>
+      </a>
+    </div>
+    <div
+      className="dte-wismo-header-link"
+    >
+      <a
+        href="https://www.dteenergy.com"
+        target="_self"
+      >
+        <svg
+          className="dte-wismo-hyperlink-icon"
+          fill="currentColor"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="external-link"
+          >
+            <path
+              d="M5.75 3C11.1197 3 14 3 14 3M14 3V11.25M14 3L3 14"
+              id="Vector"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="1.5"
+            />
+          </g>
+        </svg>
+        Visit DTEEnergy.com
+      </a>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`<Header /> should render correctly when the current language is es 1`] = `
+<header
+  className="dte-wismo-header-background"
+>
+  <div
+    className="dte-wismo-header-mobile"
+  >
+    <button
+      className="dte-wismo-header-mobile-hamburger"
+      data-testid="open-mobile-menu"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 32 20"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          menu
+        </title>
+        <path
+          clipRule="evenodd"
+          d="M0 1C0 0.447715 0.447715 0 1 0H31C31.5523 0 32 0.447715 32 1C32 1.55228 31.5523 2 31 2H1C0.447715 2 0 1.55228 0 1ZM0 10C0 9.44771 0.447715 9 1 9H31C31.5523 9 32 9.44771 32 10C32 10.5523 31.5523 11 31 11H1C0.447715 11 0 10.5523 0 10ZM0 19C0 18.4477 0.447715 18 1 18H31C31.5523 18 32 18.4477 32 19C32 19.5523 31.5523 20 31 20H1C0.447715 20 0 19.5523 0 19Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+    <div
+      className="dte-wismo-header-mobile-center"
+    >
+      <div
+        className="dte-wismo-header-mobile-logo"
+      >
+        <a
+          href="https://www.header.logo.com"
+          title="DTE Energy"
+        >
+          <svg
+            className="dte-wismo-header-logo"
+            fill="none"
+            height="32"
+            viewBox="0 0 93 32"
+            width="93"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              DTE Energy
+            </title>
+            <path
+              d="M62.0682 7.78728H53.1416V32H41.5539V7.78728H32.6094V0.0179513H62.0682V7.78728ZM92.7523 7.66162V0H66.4833V24.3133C66.4833 28.5103 69.8696 31.9102 74.0418 31.9102H78.9605H92.888V24.2127H79.4035C78.4283 24.2127 77.6353 23.4157 77.6353 22.4355V19.2761H92.145V12.1853H77.6353V7.66162H92.7523ZM19.6178 31.9749H0V0.0502637H19.5535C24.7223 0.0502637 28.9087 4.26164 28.9087 9.45316V22.6366C28.9087 27.7922 24.7509 31.9749 19.6178 31.9749ZM18.1961 21.8826V10.0061C18.1961 8.65253 17.1031 7.5575 15.76 7.5575H11.4699V24.3312H15.76C17.1031 24.3312 18.1961 23.2362 18.1961 21.8826Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        className="dte-wismo-header-page-title"
+      >
+        Rastreador de Pedidos
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-header"
+  >
+    <div
+      className="dte-wismo-header-page-title"
+    >
+      Rastreador de Pedidos
+    </div>
+    <div>
+      <a
+        href="https://www.header.logo.com"
+        title="DTE Energy"
+      >
+        <svg
+          className="dte-wismo-header-logo"
+          fill="none"
+          height="32"
+          viewBox="0 0 93 32"
+          width="93"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            DTE Energy
+          </title>
+          <path
+            d="M62.0682 7.78728H53.1416V32H41.5539V7.78728H32.6094V0.0179513H62.0682V7.78728ZM92.7523 7.66162V0H66.4833V24.3133C66.4833 28.5103 69.8696 31.9102 74.0418 31.9102H78.9605H92.888V24.2127H79.4035C78.4283 24.2127 77.6353 23.4157 77.6353 22.4355V19.2761H92.145V12.1853H77.6353V7.66162H92.7523ZM19.6178 31.9749H0V0.0502637H19.5535C24.7223 0.0502637 28.9087 4.26164 28.9087 9.45316V22.6366C28.9087 27.7922 24.7509 31.9749 19.6178 31.9749ZM18.1961 21.8826V10.0061C18.1961 8.65253 17.1031 7.5575 15.76 7.5575H11.4699V24.3312H15.76C17.1031 24.3312 18.1961 23.2362 18.1961 21.8826Z"
+            fill="currentColor"
+          />
+        </svg>
+      </a>
+    </div>
+    <div
+      className="dte-wismo-header-link"
+    >
+      <a
+        href="https://www.dteenergy.com"
+        target="_self"
+      >
+        <svg
+          className="dte-wismo-hyperlink-icon"
+          fill="currentColor"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="external-link"
+          >
+            <path
+              d="M5.75 3C11.1197 3 14 3 14 3M14 3V11.25M14 3L3 14"
+              id="Vector"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="1.5"
+            />
+          </g>
+        </svg>
+        Visitar DTEEnergy.com
+      </a>
+    </div>
+  </div>
+</header>
+`;

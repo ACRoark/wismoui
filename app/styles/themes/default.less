@@ -1,0 +1,135 @@
+//
+// Default Theme
+//
+@import './colors.less';
+@import './fonts.less';
+
+// The prefix to use on all custom css classes.
+@dte-prefix: dte-wismo;
+
+@footer-height: 182px;
+@footer-mobile-height: 247px;
+@desktop-min-width: 700px;
+@mobile-width: 699px;
+@mobile: ~'(max-width: @{mobile-width})';
+
+// Buttons
+.dte-wismo-button {
+  border: 1px solid @dte-interactive;
+  font-size: @dte-wismo-font-size-1;
+  padding: 8px 40px;
+  text-align: center;
+
+  &:hover:enabled {
+    background-color: @dte-interactive-hover;
+    color: @dte-white;
+  }
+}
+
+.dte-wismo-button-primary {
+  background-color: @dte-interactive;
+  color: @dte-white;
+
+  &:disabled {
+    background-color: @dte-gray-500;
+    border-color: @dte-gray-500;
+  }
+}
+
+.dte-wismo-button-link {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: @dte-interactive;
+  text-decoration: underline;
+
+  &:disabled {
+    background-color: transparent;
+    border-color: transparent;
+    color: @dte-gray-500;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover:enabled {
+    background-color: transparent;
+    color: @dte-interactive-hover;
+    cursor: pointer;
+  }
+}
+
+.dte-wismo-button-secondary {
+  background-color: @dte-white;
+  color: @dte-interactive;
+
+  &:disabled {
+    background-color: @dte-gray-200;
+    border-color: @dte-gray-400;
+    color: @dte-gray-500;
+  }
+}
+
+//
+// HTML Elements
+//
+
+// DO NOT REARRANGE THESE! The order is important. For more details, see
+// https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/
+a {
+  &:link {
+    color: @dte-interactive;
+  }
+
+  &:visited {
+    color: @dte-purple-dark;
+  }
+
+  &:hover {
+    color: @dte-interactive-hover;
+  }
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  color: @dte-content-primary;
+  font-family: @dte-wismo-font-family;
+  font-size: @dte-wismo-font-size-0;
+  font-style: @dte-wismo-font-style-normal;
+  line-height: @dte-wismo-line-height-base;
+  margin: 0px;
+}
+
+h1 {
+  font-size: @dte-wismo-font-size-5;
+}
+
+h2 {
+  font-size: @dte-wismo-font-size-4;
+}
+
+h3 {
+  font-size: @dte-wismo-font-size-3;
+}
+
+h4 {
+  font-size: @dte-wismo-font-size-2;
+}
+
+h5 {
+  font-size: @dte-wismo-font-size-1;
+}
+
+h6 {
+  font-size: @dte-wismo-font-size-0;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}

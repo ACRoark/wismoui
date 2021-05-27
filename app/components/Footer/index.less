@@ -1,0 +1,86 @@
+@import (reference) '../../styles/themes/index.less';
+
+@footer-cls-prefix: ~'@{dte-prefix}-footer';
+
+.@{footer-cls-prefix} {
+  align-items: center;
+  background-color: @dte-background-brand-blue;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: @footer-height; // Footer height must match <Content /> padding-bottom so the footer doesn't overlap the content
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+
+  @media @mobile {
+    height: @footer-mobile-height; // Footer height must match <Content /> padding-bottom
+  }
+
+  &-copyright {
+    color: @dte-content-primary-inverse;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: @dte-wismo-font-size-xs;
+    padding-top: 40px;
+  }
+
+  &-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+
+    @media @mobile {
+      padding-bottom: 60px;
+      padding-top: 40px;
+    }
+  }
+
+  &-divider {
+    color: @dte-content-primary-inverse;
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  &-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: @dte-wismo-font-size-s;
+    justify-content: space-between;
+    min-width: 380px;
+
+    @media @mobile {
+      align-items: center;
+      flex-direction: column;
+      height: inherit;
+      justify-content: inherit;
+      width: inherit;
+    }
+
+    > a {
+      display: flex;
+      flex-direction: row;
+
+      @media @mobile {
+        padding-top: 10px;
+      }
+
+      &:link,
+      &:visited {
+        color: @dte-content-primary-inverse !important;
+        text-decoration: none;
+      }
+
+      &:hover,
+      &:active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchPage /> should render correctly when there is no error and the language is en 1`] = `
+<div
+  className="dte-wismo-search-page"
+>
+  <div
+    className="dte-wismo-search-page-container"
+  >
+    <div
+      className="dte-wismo-search-page-content"
+    >
+      <form
+        className="dte-wismo-search-page-form"
+        id="mimotrackerguestsearch"
+        name="mimotrackerguestsearch"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="title"
+        >
+          To check the status of your order, please enter your information below.
+        </h1>
+        <label
+          htmlFor="name"
+        >
+          <div
+            className="dte-wismo-search-page-form-input-header"
+          >
+            Last Name or Business Name
+          </div>
+          <input
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </label>
+        <label
+          htmlFor="order-number"
+        >
+          <div
+            className="dte-wismo-search-page-form-input-header"
+          >
+            Order Number
+          </div>
+          <input
+            name="order-number"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            onPaste={[Function]}
+            value=""
+          />
+        </label>
+        <div
+          className="recaptcha"
+        />
+        <button
+          className="button"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          data-track-sub-action="guest search"
+          disabled={true}
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchPage /> should render correctly when there is no error and the language is es 1`] = `
+<div
+  className="dte-wismo-search-page"
+>
+  <div
+    className="dte-wismo-search-page-container"
+  >
+    <div
+      className="dte-wismo-search-page-content"
+    >
+      <form
+        className="dte-wismo-search-page-form"
+        id="mimotrackerguestsearch"
+        name="mimotrackerguestsearch"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="title"
+        >
+          Para verificar el estado de su pedido, ingrese su información a continuación.
+        </h1>
+        <label
+          htmlFor="name"
+        >
+          <div
+            className="dte-wismo-search-page-form-input-header"
+          >
+            Apellido o nombre comercial
+          </div>
+          <input
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </label>
+        <label
+          htmlFor="order-number"
+        >
+          <div
+            className="dte-wismo-search-page-form-input-header"
+          >
+            Número de orden
+          </div>
+          <input
+            name="order-number"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            onPaste={[Function]}
+            value=""
+          />
+        </label>
+        <div
+          className="recaptcha"
+        />
+        <button
+          className="button"
+          data-track="mimo"
+          data-track-action="click"
+          data-track-detail="order tracker"
+          data-track-sub-action="guest search"
+          disabled={true}
+          type="submit"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

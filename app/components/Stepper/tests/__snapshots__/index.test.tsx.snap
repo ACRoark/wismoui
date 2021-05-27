@@ -1,0 +1,919 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stepper should show correct steps and description when language is en, given a serviceRequest, and us1946 flag is true 1`] = `
+<div
+  className="dte-wismo-stepper"
+>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Order Received
+        </div>
+        <div
+          className="description"
+        >
+          03/04/20
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container error"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="error icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Verification
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            className="verification-content-error"
+          >
+            Documentation Required
+             - 
+            Identity Verification
+            <button
+              className="view-details-link dte-wismo-button dte-wismo-button-link"
+              data-track="mimo"
+              data-track-action="click"
+              data-track-detail="order tracker"
+              onClick={[Function]}
+            >
+              View Details
+            </button>
+          </div>
+          <div
+            className="verification-content-error"
+          >
+            Pending
+             - 
+            Energy Resolution
+            <button
+              className="view-details-link dte-wismo-button dte-wismo-button-link"
+              data-track="mimo"
+              data-track-action="click"
+              data-track-detail="order tracker"
+              onClick={[Function]}
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Scheduled
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+          <div>
+            Electric appointment 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Natural Gas appointment 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container pending"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <i
+          className="icon pending"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Completed 
+        </div>
+        <div
+          className="description"
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stepper should show correct steps and description when language is es, given a serviceRequest, and us1946 flag is true 1`] = `
+<div
+  className="dte-wismo-stepper"
+>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Orden recibida
+        </div>
+        <div
+          className="description"
+        >
+          04/03/20
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container error"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="error icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Verificación
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            className="verification-content-error"
+          >
+            Documentación Requerida
+             - 
+            Verificación de Identidad
+            <button
+              className="view-details-link dte-wismo-button dte-wismo-button-link"
+              data-track="mimo"
+              data-track-action="click"
+              data-track-detail="order tracker"
+              onClick={[Function]}
+            >
+              Ver Detalles
+            </button>
+          </div>
+          <div
+            className="verification-content-error"
+          >
+            Pendiente
+             - 
+            Resolución Energética
+            <button
+              className="view-details-link dte-wismo-button dte-wismo-button-link"
+              data-track="mimo"
+              data-track-action="click"
+              data-track-detail="order tracker"
+              onClick={[Function]}
+            >
+              Ver Detalles
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Programado
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+          <div>
+            Cita electrica 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Cita de gas natural 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container pending"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <i
+          className="icon pending"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Terminado 
+        </div>
+        <div
+          className="description"
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stepper should show correct steps and descriptions when language is en and given a serivceRequest 1`] = `
+<div
+  className="dte-wismo-stepper"
+>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Order Received
+        </div>
+        <div
+          className="description"
+        >
+          03/04/20
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Verification
+        </div>
+        <div
+          className="description"
+        >
+          <span>
+            Completed 
+             
+            03/20/20
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Scheduled
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            04/22/20
+          </div>
+          <div>
+            Electric appointment 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Natural Gas appointment 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container pending"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <i
+          className="icon pending"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Completed 
+        </div>
+        <div
+          className="description"
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stepper should show correct steps and descriptions when language is es and given a serivceRequest 1`] = `
+<div
+  className="dte-wismo-stepper"
+>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Orden recibida
+        </div>
+        <div
+          className="description"
+        >
+          04/03/20
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Verificación
+        </div>
+        <div
+          className="description"
+        >
+          <span>
+            Terminado 
+             
+            20/03/20
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container completed"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <svg
+          className="completed icon"
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeWidth="1px"
+          />
+        </svg>
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Programado
+        </div>
+        <div
+          className="description"
+        >
+          <div
+            className="dte-wismo-appointment-date"
+          >
+            22/04/20
+          </div>
+          <div>
+            Cita electrica 
+            8 a.m. - 12 p.m.
+          </div>
+          <div>
+            Cita de gas natural 
+            12 p.m. - 4:30 p.m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="dte-wismo-step"
+  >
+    <div
+      className="container pending"
+    >
+      <div
+        className="tail"
+      >
+        <div
+          className="half-1"
+        />
+        <div
+          className="half-2"
+        />
+      </div>
+      <div
+        className="icon-wrapper"
+      >
+        <i
+          className="icon pending"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="title"
+        >
+          Terminado 
+        </div>
+        <div
+          className="description"
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountNumberField /> should render correctly when a valid account number is passed in and the current language is en 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Account Number
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    <span>
+      1112 334 5556 7
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<AccountNumberField /> should render correctly when a valid account number is passed in and the current language is es 1`] = `
+<div
+  className="dte-wismo-base-field-section"
+>
+  <label
+    className="dte-wismo-base-field-label"
+  >
+    Número de cuenta
+  </label>
+  <span
+    className="dte-wismo-base-field-children"
+  >
+    <span>
+      1112 334 5556 7
+    </span>
+  </span>
+</div>
+`;

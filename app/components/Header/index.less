@@ -1,0 +1,175 @@
+@import (reference) '../../styles/themes/index.less';
+
+@desktop: ~'(min-width: @{desktop-min-width})';
+
+.@{dte-prefix} {
+  &-header-background {
+    background-color: @dte-background-brand-blue;
+    color: @dte-content-primary-inverse;
+    height: 96px;
+    top: 0;
+    width: 100%;
+
+    @media @mobile {
+      height: 90px;
+    }
+  }
+
+  &-header {
+    @media @desktop {
+      align-items: center;
+      display: flex;
+      height: 96px;
+      justify-content: center;
+    }
+
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  &-header-link {
+    font-size: @dte-wismo-font-size-0;
+    line-height: 2rem;
+    position: absolute;
+    right: 40px;
+    text-align: right;
+
+    > a {
+      color: white;
+      text-decoration: none;
+
+      &:active,
+      &:hover,
+      &:link,
+      &:visited {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-header-logo {
+    color: @dte-white;
+    height: 32px;
+    width: 93px;
+  }
+
+  &-header-mobile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    &-background-overlay {
+      display: none;
+    }
+
+    &-center {
+      margin-top: 16px;
+
+      .@{dte-prefix}-header-page-title {
+        font-size: @dte-wismo-font-size-1;
+        height: 25px;
+        left: auto;
+        line-height: 1.5625rem;
+        margin: 13px 0 12px;
+        position: static;
+        text-align: center;
+      }
+    }
+
+    &-hamburger {
+      background-color: transparent;
+      border: none;
+      left: 0;
+      line-height: 0;
+      margin-left: 24px;
+      margin-top: 18px;
+      outline: none;
+      padding: 0;
+      position: absolute;
+    }
+
+    &-logo {
+      color: @dte-white;
+      display: flex;
+      height: 24px;
+      justify-content: center;
+      line-height: 0;
+
+      .@{dte-prefix}-header-logo {
+        color: @dte-white;
+        height: 100%;
+      }
+    }
+
+    &-menu {
+      background-color: @dte-gray-200;
+      color: @dte-blue-light;
+      display: block;
+      font-family: @dte-wismo-font-family;
+      font-size: @dte-wismo-font-size-1;
+      font-weight: 600;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 281px;
+      z-index: 1;
+
+      &-background-overlay {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      &-button {
+        background-color: transparent;
+        border: none;
+        color: @dte-gray-500;
+        display: block;
+        margin-bottom: 46.5px;
+        outline: none;
+        padding-top: 31px;
+      }
+
+      &-submenu {
+        padding-left: 23px;
+
+        > a {
+          color: @dte-blue-light;
+          text-decoration: none;
+
+          &:active,
+          &:focus,
+          &:hover,
+          &:visited {
+            color: @dte-blue-light;
+            text-decoration: none;
+          }
+        }
+
+        &-bottom {
+          padding-top: 18px;
+        }
+
+        &-top {
+          background-color: @dte-white;
+          padding-bottom: 18px;
+        }
+      }
+    }
+
+    @media @desktop {
+      display: none;
+    }
+  }
+
+  &-header-page-title {
+    font-size: @dte-wismo-font-size-3;
+    height: 30px;
+    left: 40px;
+    line-height: 2rem;
+    position: absolute;
+  }
+}

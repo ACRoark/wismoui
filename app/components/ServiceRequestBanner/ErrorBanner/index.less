@@ -1,0 +1,45 @@
+@import '../../../styles/themes/index.less';
+
+@service-request-error-banner-cls-prefix: ~'@{dte-prefix}-error-banner';
+
+.@{service-request-error-banner-cls-prefix} {
+  background-color: @dte-background-error;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+  padding: 20px;
+
+  > div > h4 {
+    color: @dte-red !important;
+    display: inline;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    line-height: 1.5;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-right: 20px;
+    overflow-wrap: normal;
+  }
+
+  .content {
+    margin-left: 20px;
+
+    @media @mobile {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .error-icon {
+    color: @dte-red;
+    display: inline-block;
+    margin: 50% 0;
+    vertical-align: text-top;
+  }
+
+  .view-details-link {
+    font-size: @dte-wismo-font-size-0;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    padding: unset !important;
+  }
+}

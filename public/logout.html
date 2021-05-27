@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/dte-favicon-16x16.png" />
+
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ES6 Polyfill -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es6"></script>
+
+    <!-- GIGYA WEB SDK -->
+    <script
+      src="https://cdns.gigya.com/JS/gigya.js?apiKey=3_e_qjd_hIEv1YYw2ihp_u8_g0aH6VU8krGaXYYJgWWi-XzqmCBGsmZOYvhauDmlzp"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Order Tracker | DTE Energy</title>
+  </head>
+
+  <body>
+    <h1>Login</h1>
+    <form id="logout" action="#">
+      <button id="submit-button" type="submit">Logout</button>
+    </form>
+
+    <h1>Results:</h1>
+    <pre id="results"></pre>
+
+    <script type="text/javascript">
+      function logoutSuccess(response) {
+        var responseString = JSON.stringify(response || {}, undefined, 4);
+
+        $('#results').text(responseString);
+
+        console.log(response);
+
+        window.location = '/';
+      }
+
+      function signOut() {
+        gigya.accounts.logout({
+          callback: logoutSuccess,
+        });
+      }
+
+      $('#logout').submit(function (event) {
+        event.preventDefault();
+
+        signOut();
+      });
+    </script>
+  </body>
+</html>

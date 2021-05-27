@@ -1,0 +1,53 @@
+@import (reference) '../../styles/themes/index.less';
+
+@edit-cls-prefix: ~'@{dte-prefix}-edit-service-date-link';
+
+.@{edit-cls-prefix} {
+  > button {
+    font-size: @dte-wismo-font-size-0;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    line-height: 1.3rem;
+    margin-left: 22px;
+    padding: 0px;
+  }
+
+  &-button:hover {
+    border-color: @dte-blue;
+  }
+
+  &-cancel-button {
+    margin-right: 20px;
+  }
+
+  &-modal > .@{dte-prefix}-modal-body > .@{dte-prefix}-modal-content {
+    min-height: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+.@{dte-prefix}-edit-service-date-link-button {
+  margin-top: 20px;
+
+  @media @mobile {
+    margin-top: 0;
+  }
+}
+
+.content-edit-date {
+  text-align: left;
+}
+
+.secondary-button-edit-date {
+  margin-right: 20px;
+
+  @media @mobile {
+    margin: 20px 0px;
+  }
+}
+
+.modal-buttons {
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}

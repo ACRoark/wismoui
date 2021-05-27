@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render correctly when it is link 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-link"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+/>
+`;
+
+exports[`<Button /> should render correctly when it is link and disabled 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-link"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  disabled={true}
+/>
+`;
+
+exports[`<Button /> should render correctly when it is primary 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-primary"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+/>
+`;
+
+exports[`<Button /> should render correctly when it is primary and disabled 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-primary"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  disabled={true}
+/>
+`;
+
+exports[`<Button /> should render correctly when it is secondary 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-secondary"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+/>
+`;
+
+exports[`<Button /> should render correctly when it is secondary and disabled 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-secondary"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  disabled={true}
+/>
+`;
+
+exports[`<Button /> should render correctly when the type is not specified 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-primary"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+/>
+`;
+
+exports[`<Button /> should render correctly when the type is not specified and the button is disabled 1`] = `
+<button
+  className="dte-wismo-button dte-wismo-button-primary"
+  data-track="mimo"
+  data-track-action="click"
+  data-track-detail="order tracker"
+  disabled={true}
+/>
+`;

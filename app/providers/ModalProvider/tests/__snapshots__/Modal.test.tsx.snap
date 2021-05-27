@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should render correctly when content and footer are provided 1`] = `
+<div
+  className="react-responsive-modal-overlay dte-wismo-modal-overlay"
+  data-testid="overlay"
+  onAnimationEnd={[Function]}
+  onClick={[Function]}
+  style={
+    Object {
+      "animation": "react-responsive-modal-fadeIn 500ms",
+    }
+  }
+>
+  <div
+    aria-modal="true"
+    className="react-responsive-modal-modal dte-wismo-modal"
+    data-testid="modal"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    role="dialog"
+  >
+    <div
+      className="dte-wismo-modal-title"
+    />
+    <div
+      className="dte-wismo-modal-body"
+    >
+      <div
+        className="dte-wismo-modal-content"
+      />
+      <div
+        className="dte-wismo-modal-footer"
+      />
+    </div>
+    <button
+      className="react-responsive-modal-closeButton dte-wismo-modal-close-button"
+      data-testid="close-button"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          close
+        </title>
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Modal /> should render correctly when content and title are provided 1`] = `
+<div
+  className="react-responsive-modal-overlay dte-wismo-modal-overlay"
+  data-testid="overlay"
+  onAnimationEnd={[Function]}
+  onClick={[Function]}
+  style={
+    Object {
+      "animation": "react-responsive-modal-fadeIn 500ms",
+    }
+  }
+>
+  <div
+    aria-modal="true"
+    className="react-responsive-modal-modal dte-wismo-modal"
+    data-testid="modal"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    role="dialog"
+  >
+    <div
+      className="dte-wismo-modal-title"
+    />
+    <div
+      className="dte-wismo-modal-body"
+    >
+      <div
+        className="dte-wismo-modal-content"
+      />
+    </div>
+    <button
+      className="react-responsive-modal-closeButton dte-wismo-modal-close-button"
+      data-testid="close-button"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          close
+        </title>
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Modal /> should render correctly when content, footer and title are provided 1`] = `
+<div
+  className="react-responsive-modal-overlay dte-wismo-modal-overlay"
+  data-testid="overlay"
+  onAnimationEnd={[Function]}
+  onClick={[Function]}
+  style={
+    Object {
+      "animation": "react-responsive-modal-fadeIn 500ms",
+    }
+  }
+>
+  <div
+    aria-modal="true"
+    className="react-responsive-modal-modal dte-wismo-modal"
+    data-testid="modal"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    role="dialog"
+  >
+    <div
+      className="dte-wismo-modal-title"
+    />
+    <div
+      className="dte-wismo-modal-body"
+    >
+      <div
+        className="dte-wismo-modal-content"
+      />
+      <div
+        className="dte-wismo-modal-footer"
+      />
+    </div>
+    <button
+      className="react-responsive-modal-closeButton dte-wismo-modal-close-button"
+      data-testid="close-button"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          close
+        </title>
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Modal /> should render correctly when only content is provided 1`] = `
+<div
+  className="react-responsive-modal-overlay dte-wismo-modal-overlay"
+  data-testid="overlay"
+  onAnimationEnd={[Function]}
+  onClick={[Function]}
+  style={
+    Object {
+      "animation": "react-responsive-modal-fadeIn 500ms",
+    }
+  }
+>
+  <div
+    aria-modal="true"
+    className="react-responsive-modal-modal dte-wismo-modal"
+    data-testid="modal"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    role="dialog"
+  >
+    <div
+      className="dte-wismo-modal-title"
+    />
+    <div
+      className="dte-wismo-modal-body"
+    >
+      <div
+        className="dte-wismo-modal-content"
+      />
+    </div>
+    <button
+      className="react-responsive-modal-closeButton dte-wismo-modal-close-button"
+      data-testid="close-button"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          close
+        </title>
+        <path
+          d="M1 1L10.0178 10.0166M10.0178 10.0166L18.9668 18.9644M10.0178 10.0166L19 1.03558M10.0178 10.0166L1.03318 19"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

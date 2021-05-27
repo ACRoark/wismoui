@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceRequestTitle should render the correct start title when the language is en and orderRequestType is MIMO_START 1`] = `
+<div
+  className="dte-wismo-service-request-title"
+>
+  Start Service
+</div>
+`;
+
+exports[`ServiceRequestTitle should render the correct start title when the language is en and orderRequestType is MIMO_STOP 1`] = `
+<div
+  className="dte-wismo-service-request-title"
+>
+  Stop Service
+</div>
+`;
+
+exports[`ServiceRequestTitle should render the correct start title when the language is es and orderRequestType is MIMO_START 1`] = `
+<div
+  className="dte-wismo-service-request-title"
+>
+  Comienza el servicio
+</div>
+`;
+
+exports[`ServiceRequestTitle should render the correct start title when the language is es and orderRequestType is MIMO_STOP 1`] = `
+<div
+  className="dte-wismo-service-request-title"
+>
+  Parada de servicio
+</div>
+`;

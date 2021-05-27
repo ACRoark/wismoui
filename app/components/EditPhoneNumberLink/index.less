@@ -1,0 +1,42 @@
+@import (reference) '../../styles/themes/index.less';
+
+@edit-cls-prefix: ~'@{dte-prefix}-edit-phone-number-link';
+
+.@{edit-cls-prefix} {
+  > button {
+    font-size: @dte-wismo-font-size-0;
+    font-weight: @dte-wismo-font-weight-semi-bold;
+    line-height: 1.3rem;
+    margin-left: 22px;
+    padding: 0px;
+  }
+
+  &-button:hover {
+    border-color: @dte-blue;
+  }
+
+  &-cancel-button {
+    margin-right: 20px;
+  }
+
+  &-modal > .@{dte-prefix}-modal-body > .@{dte-prefix}-modal-content {
+    min-height: 0px;
+
+    @media @mobile {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.content-edit-phone {
+  text-align: left;
+}
+
+.secondary-button-edit-phone {
+  margin-right: 20px;
+
+  @media @mobile {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+}

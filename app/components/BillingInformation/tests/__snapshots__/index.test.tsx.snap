@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingInformation/> should render correctly when the current language is en, and requestType is MIMO_START, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Your bill is ready to view 
+  <a
+    href="https://www.sign.in.com"
+    target="_blank"
+  >
+    online
+  </a>
+  .
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is en, and requestType is MIMO_START, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Your bill is ready to view online. Please 
+  <a
+    href="https://www.sign.in.com"
+  >
+    sign in
+  </a>
+   to make your payment or use our 
+  <a
+    href="https://www.guest.pay.com"
+  >
+    Guest Pay
+  </a>
+   option.
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is en, and requestType is MIMO_STOP, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Your bill is ready to view 
+  <a
+    href="https://www.sign.in.com"
+    target="_blank"
+  >
+    online
+  </a>
+  .
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is en, and requestType is MIMO_STOP, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Your bill is ready to view online. Please 
+  <a
+    href="https://www.sign.in.com"
+  >
+    sign in
+  </a>
+   to make your payment or use our 
+  <a
+    href="https://www.guest.pay.com"
+  >
+    Guest Pay
+  </a>
+   option.
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is es, and requestType is MIMO_START, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Su factura está lista para ver 
+  <a
+    href="https://www.sign.in.com"
+    target="_blank"
+  >
+    en línea
+  </a>
+  .
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is es, and requestType is MIMO_START, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Su factura está lista para ver en línea. 
+  <a
+    href="https://www.sign.in.com"
+  >
+    Inicie sesión
+  </a>
+   para realizar su pago o use nuestra opción 
+  <a
+    href="https://www.guest.pay.com"
+  >
+    Pago de Invitado
+  </a>
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is es, and requestType is MIMO_STOP, and user is authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Su factura está lista para ver 
+  <a
+    href="https://www.sign.in.com"
+    target="_blank"
+  >
+    en línea
+  </a>
+  .
+</div>
+`;
+
+exports[`<BillingInformation/> should render correctly when the current language is es, and requestType is MIMO_STOP, and user is not authenticated 1`] = `
+<div
+  className="dte-wismo-billing-information"
+>
+  Su factura está lista para ver en línea. 
+  <a
+    href="https://www.sign.in.com"
+  >
+    Inicie sesión
+  </a>
+   para realizar su pago o use nuestra opción 
+  <a
+    href="https://www.guest.pay.com"
+  >
+    Pago de Invitado
+  </a>
+</div>
+`;

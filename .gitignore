@@ -1,0 +1,11 @@
+allure-results
+build
+coverage
+logs
+node_modules
+reports
+screenshots
+
+.idea
+.log
+.vscode

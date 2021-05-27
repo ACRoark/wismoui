@@ -1,0 +1,28 @@
+@import (reference) '../../styles/themes/index.less';
+
+@search-page-cls-prefix: ~'@{dte-prefix}-search-page';
+
+.@{search-page-cls-prefix} {
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    border: 1px solid @dte-gray-300;
+    display: flex;
+    justify-content: center;
+    margin: 44px 0 99px;
+    max-width: 952px;
+    width: 80%;
+
+    @media @mobile {
+      border: none;
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  &-content {
+    margin: 48px 0 41px;
+    width: 327px;
+  }
+}

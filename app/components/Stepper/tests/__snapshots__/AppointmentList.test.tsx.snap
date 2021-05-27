@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppointmentList should return an appointment date and the appointment times when completed is false 1`] = `
+<div
+  className="dte-wismo-appointment-list"
+>
+  <div
+    className="dte-wismo-appointment-date"
+  >
+    09/25/20
+  </div>
+  <div>
+    Electric appointment 
+    8 a.m. - 12 p.m.
+  </div>
+  <div>
+    Natural Gas appointment 
+    8 a.m. - 12 p.m.
+  </div>
+</div>
+`;
+
+exports[`AppointmentList should return completed content when completed is true 1`] = `
+<div
+  className="dte-wismo-appointment-list"
+>
+  <span
+    className="dte-wismo-completed-service-order-event"
+  >
+    Electric appointment completed on 
+    09/25/20
+  </span>
+  <span
+    className="dte-wismo-completed-service-order-event"
+  >
+    Natural Gas appointment completed on 
+    09/25/20
+  </span>
+</div>
+`;

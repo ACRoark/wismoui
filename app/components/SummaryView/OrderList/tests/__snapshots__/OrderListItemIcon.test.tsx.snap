@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderListItemIcon /> should render correctly when the request type is 'MIMO_START' and the current language is en 1`] = `
+<svg
+  className="dte-wismo-order-list-item-icon"
+  fill="none"
+  height="58"
+  viewBox="0 0 34 58"
+  width="34"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    start order
+  </title>
+  <path
+    d="M1 16C1 15.4477 1.44772 15 2 15H32C32.5523 15 33 15.4477 33 16V37C33 40.866 29.866 44 26 44H8C4.13401 44 1 40.866 1 37V16Z"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M7 3C7 1.89543 7.89543 1 9 1H10C11.1046 1 12 1.89543 12 3V15H7V3Z"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M22 3C22 1.89543 22.8954 1 24 1H25C26.1046 1 27 1.89543 27 3V15H22V3Z"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M5.02124 56.3499C7.73517 56.3499 13.1835 56.6666 15.4086 53.9259C17.6338 51.1852 18.1999 45.985 17.6012 44.0577"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M18.8224 39.0071L14.5581 29.6487L20.4274 29.7357L16.1777 19.3992"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`<OrderListItemIcon /> should render correctly when the request type is 'MIMO_START' and the current language is es 1`] = `
+<svg
+  className="dte-wismo-order-list-item-icon"
+  fill="none"
+  height="58"
+  viewBox="0 0 34 58"
+  width="34"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    start order
+  </title>
+  <path
+    d="M1 16C1 15.4477 1.44772 15 2 15H32C32.5523 15 33 15.4477 33 16V37C33 40.866 29.866 44 26 44H8C4.13401 44 1 40.866 1 37V16Z"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M7 3C7 1.89543 7.89543 1 9 1H10C11.1046 1 12 1.89543 12 3V15H7V3Z"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M22 3C22 1.89543 22.8954 1 24 1H25C26.1046 1 27 1.89543 27 3V15H22V3Z"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M5.02124 56.3499C7.73517 56.3499 13.1835 56.6666 15.4086 53.9259C17.6338 51.1852 18.1999 45.985 17.6012 44.0577"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+  <path
+    d="M18.8224 39.0071L14.5581 29.6487L20.4274 29.7357L16.1777 19.3992"
+    stroke="currentColor"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`<OrderListItemIcon /> should render correctly when the request type is 'MIMO_STOP' and the current language is en 1`] = `
+<svg
+  fill="none"
+  height="59"
+  viewBox="0 0 37 59"
+  width="37"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    stop order
+  </title>
+  <g
+    clipPath="url(#clip0)"
+  >
+    <path
+      d="M0.782227 38.6582V16.3837C0.782227 14.0826 2.34671 12.2417 4.30231 12.2417H4.69343C6.64903 12.2417 8.21352 14.0826 8.21352 16.3837V29.638"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M8.13525 25.0358V8.37585C8.13525 6.07476 9.69974 4.23389 11.6553 4.23389H12.0465C14.0021 4.23389 15.5665 6.07476 15.5665 8.37585V25.1278"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M22.8413 26.9686V10.2167C22.8413 7.91558 24.4058 6.07471 26.3614 6.07471H26.7525C28.7081 6.07471 30.2726 7.91558 30.2726 10.2167V21.0778"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M36.2177 38.6585V25.2201C36.2177 22.919 34.6532 21.0781 32.6976 21.0781H32.3065C30.3509 21.0781 28.7864 22.919 28.7864 25.2201V27.7053C28.7864 30.5586 28.7864 31.387 26.909 32.4915C25.3446 33.412 23.5454 35.529 23.5454 37.738V39.3028"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M15.4883 24.6677V5.06238C15.4883 2.76128 17.0528 0.92041 19.0084 0.92041H19.3995C21.3551 0.92041 22.9196 2.76128 22.9196 5.06238V24.6677"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M36.2177 38.5664C36.2177 49.4276 28.3171 58.1717 18.5391 58.1717C8.76109 58.1717 0.782227 49.3355 0.782227 38.5664"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+  </g>
+  <defs>
+    <clipPath
+      id="clip0"
+    >
+      <rect
+        fill="white"
+        height="59"
+        width="37"
+      />
+    </clipPath>
+  </defs>
+</svg>
+`;
+
+exports[`<OrderListItemIcon /> should render correctly when the request type is 'MIMO_STOP' and the current language is es 1`] = `
+<svg
+  fill="none"
+  height="59"
+  viewBox="0 0 37 59"
+  width="37"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    stop order
+  </title>
+  <g
+    clipPath="url(#clip0)"
+  >
+    <path
+      d="M0.782227 38.6582V16.3837C0.782227 14.0826 2.34671 12.2417 4.30231 12.2417H4.69343C6.64903 12.2417 8.21352 14.0826 8.21352 16.3837V29.638"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M8.13525 25.0358V8.37585C8.13525 6.07476 9.69974 4.23389 11.6553 4.23389H12.0465C14.0021 4.23389 15.5665 6.07476 15.5665 8.37585V25.1278"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M22.8413 26.9686V10.2167C22.8413 7.91558 24.4058 6.07471 26.3614 6.07471H26.7525C28.7081 6.07471 30.2726 7.91558 30.2726 10.2167V21.0778"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M36.2177 38.6585V25.2201C36.2177 22.919 34.6532 21.0781 32.6976 21.0781H32.3065C30.3509 21.0781 28.7864 22.919 28.7864 25.2201V27.7053C28.7864 30.5586 28.7864 31.387 26.909 32.4915C25.3446 33.412 23.5454 35.529 23.5454 37.738V39.3028"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M15.4883 24.6677V5.06238C15.4883 2.76128 17.0528 0.92041 19.0084 0.92041H19.3995C21.3551 0.92041 22.9196 2.76128 22.9196 5.06238V24.6677"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+    <path
+      d="M36.2177 38.5664C36.2177 49.4276 28.3171 58.1717 18.5391 58.1717C8.76109 58.1717 0.782227 49.3355 0.782227 38.5664"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      strokeWidth="2"
+    />
+  </g>
+  <defs>
+    <clipPath
+      id="clip0"
+    >
+      <rect
+        fill="white"
+        height="59"
+        width="37"
+      />
+    </clipPath>
+  </defs>
+</svg>
+`;
